@@ -1,0 +1,143 @@
+.footer-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.footer-link-container {
+  display: flex;
+}
+
+.footer-link {
+  color: #393978 !important;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.footer-link:hover {
+  font-weight: 600;
+}
+
+.social-media-container i {
+  font-size: 33px;
+}
+
+.footer-brand.custom-footer {
+  max-width: 300px;
+  padding: 25px 20px;
+}
+
+.footer-brand.custom-footer img {
+  width: 100%;
+}
+
+.app-link {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1650px) {
+  .social-media-container i {
+    font-size: 28px;
+  }
+
+  .footer-link-container a {
+    font-size: 22px;
+  }
+
+  .app-link img {
+    max-width: 150px;
+    padding: 0px 5px !important;
+  }
+
+  .footer-info-container .footer-text-res {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .footer-link-container a,
+  .footer-info-container .footer-text-res {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .social-media-container i {
+    font-size: 24px;
+  }
+
+  .app-link img {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .social-media-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+    .footer-info-container .footer-text-res {
+        font-size: 16px;
+      }
+    .app-link,.footer-link-container, .footer-info-container:first-child{
+        flex-direction: column;
+    }
+    .app-link{
+        gap:10px;
+    }
+    .footer-link-container a{
+        padding: 0px;
+    }
+    .footer-brand.custom-footer{
+        padding: 0px;
+        max-width: 150px;
+    }
+    .footer-brand-contain{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer-info-container .footer-text-res{
+        margin: 0px!important;
+        padding: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 796px) {
+    .footer-info-container {
+        flex-wrap: wrap;
+    }
+    section{
+        padding: 0px 10px;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .footer-info-container {
+        flex-wrap: wrap;
+    }
+    section{
+        padding: 0px 10px;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: center;
+    }
+  }
+
+/* 
+  @media only screen and (max-width: 1200px){
+    .footer-container{
+        display: none;
+    }
+  } */
