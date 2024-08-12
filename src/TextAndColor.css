@@ -1,0 +1,236 @@
+﻿.title-xxxlarge60, .text-xxxlarge60 {
+    font-size: 60px;
+}
+
+.title-xxxlarge55, .text-xxxlarge55 {
+    font-size: 55px;
+}
+
+.title-xxxlarge52, .text-xxxlarge52 {
+    font-size: 52px;
+}
+
+.title-xxxlarge50, .text-xxxlarge50 {
+    font-size: 50px;
+    /* font-size: clamp(30px, 1vw, 50px); */
+}
+
+.title-xxxlarge45, .text-xxxlarge45 {
+    font-size: 45px;
+    /* font-size: clamp(28px, 1vw, 45px); */
+}
+
+.title-xxxlarge42, .text-xxxlarge42 {
+    font-size: 42px;
+}
+
+.title-xxxlarge40, .text-xxxlarge40 {
+    font-size: 40px;
+}
+
+.title-xxxlarge, .text-xxxlarge {
+    font-size: 38px;
+    /* font-size: clamp(22px, 1vw, 38px); */
+}
+
+.title-xxxlarge36, .text-xxxlarge36 {
+    font-size: 36px;
+}
+
+.title-xxxlarge34, .text-xxxlarge34 {
+    font-size: 34px;
+}
+
+.title-xxxlarge32, .text-xxxlarge32 {
+    font-size: 32px;
+}
+
+.title-xxlarge, .text-xxlarge {
+    font-size: 30px;
+}
+
+.title-xxlarge28, .text-xxlarge28 {
+    font-size: 28px;
+    /* font-size: clamp(18px, 1vw, 28px); */
+}
+
+.title-xllarge, .text-xllarge {
+    font-size: 26px;
+}
+
+.title-xlarge, .text-xlarge {
+    font-size: 24px!important;
+    /* font-size: clamp(16px, 1vw, 24px); */
+}
+
+.title-large22, .text-large22 {
+    font-size: 22px;
+    /* font-size: clamp(18px, 1vw, 22px); */
+}
+
+.title-large, .text-large{
+    font-size: 20px;
+    /* font-size: clamp(16px, 1vw, 20px); */
+}
+
+.title-regular, .text-regular {
+    font-size: 18px;
+    /* font-size: clamp(14px, 1vw, 18px); */
+}
+
+.title-small, .text-small {
+    font-size: 16px;
+}
+
+
+.title-xsmall, .text-xsmall {
+    font-size: 14px;
+}
+
+.title-xxsmall, .text-xxsmall {
+    font-size: 12px;
+}
+
+.title-xxxsmall, .text-xxxsmall {
+    font-size: 10px;
+}
+
+
+.title-xxxlarge60,.title-xxxlarge55,.title-xxxlarge52,.title-xxxlarge50,.title-xxxlarge45,.title-xxxlarge42,.title-xxxlarge40,.title-xxxlarge40, .title-xxxlarge36, .title-xxxlarge34, .title-xxxlarge32, .title-xxlarge28, .title-large22, .title-xxxlarge, .title-xxlarge, .title-xxlarge, .title-xlarge, .title-large, .title-small, .title-regular, .title-xsmall, .title-xxsmall, .title-xxsmall, .title-xxxsmall, .title-xxxxsmall {
+    font-weight: 600!important;
+    text-decoration: none;
+}
+
+.text-xxxlarge60,.text-xxxlarge55,.text-xxxlarge52,.text-xxxlarge50,.text-xxxlarge45,.text-xxxlarge42,.text-xxxlarge40, .text-xxxlarge36, .text-xxxlarge34, .text-xxxlarge32, .text-xxlarge28, .text-large22,.text-xxxlarge, .text-xllarge, .text-xxlarge, .text-xlarge, .text-large, .text-small, .text-regular, .text-xsmall, .text-xxsmall, .text-xxsmall, .text-xxxsmall, .text-xxxxsmall {
+    font-weight: 300!important;
+}
+
+.title-xxxlarge60:hover,.title-xxxlarge55:hover,.title-xxxlarge52:hover,.title-xxxlarge50:hover,.title-xxxlarge45:hover,.title-xxxlarge42:hover,.title-xxxlarge40:hover, .title-xxxlarge36:hover, .title-xxxlarge34:hover, .title-xxxlarge32:hover, .title-large22:hover, .title-xxlarge28:hover, .title-xxxlarge:hover, .title-xxlarge:hover, .title-xxlarge:hover, .title-xlarge:hover, .title-large:hover, .title-small:hover, .title-regular:hover, .title-xsmall:hover, .title-xxsmall:hover, .title-xxsmall:hover, .title-xxxsmall:hover, .title-xxxxsmall:hover {
+    text-decoration: none;
+}
+
+
+/*Colors*/
+
+.color-black {
+    color: #000000 !important;
+}
+
+.color-white {
+    color: #ffffff !important;
+}
+
+.color-primary-project{
+    color:#393978;
+}
+.color-secondary-project{
+    color:#4D4D4D;
+}
+
+
+/*font weight*/
+
+
+.wheight100 {
+    font-weight: 100;
+}
+
+.wheight200 {
+    font-weight: 200;
+}
+
+.wheight300 {
+    font-weight: 300;
+}
+
+.wheight400 {
+    font-weight: 400;
+}
+
+.wheight500 {
+    font-weight: 500;
+}
+
+.wheight600 {
+    font-weight: 600;
+}
+
+.wheight700 {
+    font-weight: 700;
+}
+
+.wheight800{
+    font-weight:800;
+}
+
+.wheight900 {
+    font-weight: 900;
+}
+
+/*font alignament*/
+
+.text-justify-ic{
+    text-align: justify;
+}
+
+.text-center-ic{
+    text-align: center;
+}
+
+.text-start-ic{
+    text-align: start;
+}
+
+.text-end-ic{
+    text-align: end;
+}
+
+.text-italic-ic {
+    font-style: italic;
+}
+
+.text-no-wrap{
+    white-space: nowrap;
+}
+
+/*END font alignament*/
+
+/*Structure alignament*/
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.center-flex{
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+}
+
+.center-flex-align{
+    display: flex;
+    align-items: center;    
+}
+
+.center-flex-justify{
+    display: flex;
+    justify-content: center;    
+}
+
+.center-flex-justify-between{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.w-100-ic{
+    width: 100%;
+}
+
+.m-w-100-ic{
+    max-width: 100%;
+}
+
+.inline-block{
+    display: inline-block;
+}
+/*END Structure alignament*/
