@@ -1,12 +1,37 @@
 .pa-container.intaro-tr {
-    margin-top: 130px;
-    max-width: 1600px;
-    margin: 150px auto 40px auto;
-    position: relative;
-    background-color: #1c383b;
-    border-radius: 20px;
-    min-height: 200px;
-  }
+  display: flex;
+  margin-top: 130px;
+  max-width: 1600px;
+  margin: 150px auto 40px auto;
+  position: relative;
+  background-color: #1c383b;
+  border-radius: 20px;
+  min-height: 344px;
+}
 
-  
-  
+.company-logo {
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f26c37;
+  border: 1px solid #707070;
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px;
+}
+
+.company-logo img {
+  width: 100%;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.partners-container img{
+    margin: 0px 40px;
+}

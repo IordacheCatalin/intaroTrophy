@@ -1,0 +1,8 @@
+.ga-container-images.intaro-tr {
+  max-width: 1600px;
+  margin: 140px auto 0px auto!important;
+}
+
+.ga-container-images.intaro-tr img{
+  width: -webkit-fill-available;
+}
