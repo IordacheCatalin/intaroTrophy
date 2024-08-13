@@ -1,86 +1,93 @@
 <div class="contact-form-container">
-    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" id="contactForm">
-      <h2 class="title-xxxlarge42 siteTextColor mb-4 w-100" style="padding-left: 40px;">Contact</h2>
-      <div class="form-group-container">
-        <div class="form-group-module dd-form">
-          <div class="form-group dd-form">
-            <label for="firstName">Nume</label>
-            <input id="firstName" formControlName="firstName" class="form-control dd-form" type="text" />
-            <div class="validation-message" *ngIf="contactForm.get('firstName')?.invalid && contactForm.get('firstName')?.touched">
-              Acest câmp este obligatoriu!!
-            </div>
-          </div>
-  
-          <div class="form-group dd-form">
-            <label for="lastName">Prenume</label>
-            <input id="lastName" formControlName="lastName" class="form-control dd-form" type="text" />
-            <div class="validation-message" *ngIf="contactForm.get('lastName')?.invalid && contactForm.get('lastName')?.touched">
-              Acest câmp este obligatoriu!
-            </div>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" id="contactForm">
+    <h2 class="title-xxxlarge42 siteTextColor mb-4 w-100" style="padding-left: 40px;">Contact</h2>
+    <div class="form-group-container">
+      <div class="form-group-module dd-form">
+        <div class="form-group dd-form">
+          <label for="firstName">Nume</label>
+          <input id="firstName" formControlName="firstName" class="form-control dd-form" type="text" />
+          <div class="validation-message"
+            *ngIf="contactForm.get('firstName')?.invalid && contactForm.get('firstName')?.touched">
+            Acest câmp este obligatoriu!!
           </div>
         </div>
-  
-        <div class="form-group-module dd-form">
-          <div class="form-group dd-form">
-            <label for="email">Email</label>
-            <input id="email" formControlName="email" class="form-control dd-form" type="email" />
-            <div class="validation-message" *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
-              Acest câmp este obligatoriu!
-            </div>
-          </div>
-  
-          <div class="form-group dd-form">
-            <label for="phone">Telefon</label>
-            <input id="phone" formControlName="phone" class="form-control dd-form" type="tel" />
-            <div class="validation-message" *ngIf="contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched">
-              Doar numere sunt permise!
-            </div>
-          </div>
-        </div>
-  
-        <div class="w-100">
-          <div class="form-group dd-form">
-            <label for="message">Mesaj</label>
-            <textarea id="message" formControlName="message" class="form-control dd-form"></textarea>
-            <div class="validation-message" *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
-              Acest câmp este obligatoriu!
-            </div>
+
+        <div class="form-group dd-form">
+          <label for="lastName">Prenume</label>
+          <input id="lastName" formControlName="lastName" class="form-control dd-form" type="text" />
+          <div class="validation-message"
+            *ngIf="contactForm.get('lastName')?.invalid && contactForm.get('lastName')?.touched">
+            Acest câmp este obligatoriu!
           </div>
         </div>
       </div>
-  
-      <div class='form-module-line dd-form'>
-        <div class="form-group dd-form" style="max-width: 150px;">
-          <label for="securityCode" class="text-no-wrap">Cod de verificare</label>
-          <input id="securityCode" formControlName="securityCode" class="form-control dd-form" type="tel" />
-          <div class="validation-message text-no-wrap" *ngIf="contactForm.get('securityCode')?.invalid && contactForm.get('securityCode')?.touched">
-            SecurityCode number is required
+
+      <div class="form-group-module dd-form">
+        <div class="form-group dd-form">
+          <label for="email">Email</label>
+          <input id="email" formControlName="email" class="form-control dd-form" type="email" />
+          <div class="validation-message"
+            *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
+            Acest câmp este obligatoriu!
           </div>
         </div>
-        <div id="generateSecurityId">
-          <span class="title-xxxlarge34">{{ generatedCode }}</span> 
-          <button type="button" (click)="refreshSecurityCode()" class="btn-security-refresh">
-            <i class="fa-solid fa-arrow-rotate-right"></i> 
-          </button>
+
+        <div class="form-group dd-form">
+          <label for="phone">Telefon</label>
+          <input id="phone" formControlName="phone" class="form-control dd-form" type="tel" />
+          <div class="validation-message"
+            *ngIf="contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched">
+            Doar numere sunt permise!
+          </div>
         </div>
-        <button type="submit" class="contact-btn custom-btn-gn dd-disable text-large22" [disabled]="true">Trimite</button>
       </div>
-    </form>
-  
-    <div class="map-container" style="margin-top: 20px;">
-      <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d712.2926396010263!2d26.109908600376947!3d44.429663488963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff3d029dbcaf%3A0xe40a5a67b9c524a5!2sDaune%20Expert!5e0!3m2!1sen!2sro!4v1718803524807!5m2!1sen!2sro" width="600" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
       <div class="w-100">
-        <i class="fa-solid fa-location-dot siteTextColor"></i>
-        <span class="">Strada Cluceru Udricani Nr. 18, etaj 7, sector 3, București</span>
-      </div>
-      <div class="w-100">
-        <i class="fa-solid fa-phone siteTextColor"></i>
-        <span class="text-regular">0736 479 242</span>
-      </div>
-      <div class="w-100">
-        <i class="fa-solid fa-envelope siteTextColor"></i>
-        <span class="text-regular" type="email">office&#64;directdoc.ro</span>
+        <div class="form-group dd-form">
+          <label for="message">Mesaj</label>
+          <textarea id="message" formControlName="message" class="form-control dd-form"></textarea>
+          <div class="validation-message"
+            *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
+            Acest câmp este obligatoriu!
+          </div>
+        </div>
       </div>
     </div>
+
+    <div class='form-module-line dd-form'>
+      <div class="form-group dd-form" style="max-width: 150px;">
+        <label for="securityCode" class="text-no-wrap">Cod de verificare</label>
+        <input id="securityCode" formControlName="securityCode" class="form-control dd-form" type="tel" />
+        <div class="validation-message text-no-wrap"
+          *ngIf="contactForm.get('securityCode')?.invalid && contactForm.get('securityCode')?.touched">
+          SecurityCode number is required
+        </div>
+      </div>
+      <div id="generateSecurityId">
+        <span class="title-xxxlarge34">{{ generatedCode }}</span>
+        <button type="button" (click)="refreshSecurityCode()" class="btn-security-refresh">
+          <i class="fa-solid fa-arrow-rotate-right"></i>
+        </button>
+      </div>
+      <button type="submit" class="contact-btn custom-btn-gn dd-disable text-large22" [disabled]="true">Trimite</button>
+    </div>
+  </form>
+
+  <div class="map-container" style="margin-top: 20px;">
+    <div class="map-iframe" >
+<img src='/assets/Images/map.png' alt="map"style="height: 370px;">
+    </div>
+    <div class="w-100">
+      <i class="fa-solid fa-location-dot siteTextColor"></i>
+      <span class="">Strada Cluceru Udricani Nr. 18, etaj 7, sector 3, București</span>
+    </div>
+    <div class="w-100">
+      <i class="fa-solid fa-phone siteTextColor"></i>
+      <span class="text-regular">0736 479 242</span>
+    </div>
+    <div class="w-100">
+      <i class="fa-solid fa-envelope siteTextColor"></i>
+      <span class="text-regular" type="email">office&#64;directdoc.ro</span>
+    </div>
   </div>
-  
+</div>
