@@ -2,10 +2,22 @@
     <img src="./assets/Images/bg1.png" alt="tennis image" />
     <img src="./assets/Images/bg2.png" alt="targu-mures image" style="top:-20px;z-index: 1;" />
     <div class="hp-container-text intaro-tr">
-        <h1>Elegance in Every Victory</h1>
-        <div class="box1 center-flex">
-            <h2>Târgu Mureș</h2>
-            <h5>22 - 29 september</h5>
-        </div>
+        <div>
+            <h1>Elegance in Every Victory</h1>
+            <div class="box1 center-flex">
+                <h2>Târgu Mureș</h2>
+                <h5>22 - 29 september</h5>
+            </div>
+        </div>       
+
+        <div class="cards-container">
+            <div *ngFor="let card of cards">
+              <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
+            </div>
+          </div>
     </div>
 </div>
+
+<app-program></app-program>
+
+<app-partners></app-partners>

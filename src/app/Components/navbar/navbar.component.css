@@ -1,14 +1,18 @@
 .navbar.nav-custom {
   background-color: #1F4B4C;
-  box-shadow: rgba(33, 35, 38, 0.29) 0px 10px 10px -10px;
+  box-shadow: 0px 3px 20px #00000082;
   height: 130px;
   position: fixed;
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
+}
+
+.navbar.nav-custom .container-fluid{
+  max-width: 1600px;
 }
 
 .navbar-brand.nav-custom {
