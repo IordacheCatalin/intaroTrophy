@@ -1,25 +1,31 @@
 <div class='pr-container intaro-tr'>
     <div class="days-container">
         <div *ngFor="let day of days" [ngClass]="{ 'current': day.isCurrent }">
-            <div class="title-xxlarge28">{{ day.title }}</div>
-            <div class="text-xxxlarge32">{{ day.date }}</div>
+            <div class="day-title title-xxlarge28">{{ day.title }}</div>
+            <div class="day-date text-xxxlarge32">{{ day.date }}</div>
         </div>
     </div>
 
     <div class="games-container intaro-tr">
         <div *ngFor="let playerVsPlayer of playerVsPlayers" class="game-container">
-            <div>
-                <div class="title-xllarge">{{ playerVsPlayer.namePlayer1 }}</div>
-                <div class="title-xllarge">{{ playerVsPlayer.namePlayer2 }}</div> 
+            <div class="players-container">
+                <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.namePlayer1 }}</div>
+                <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.namePlayer2 }}</div>
             </div>
-            <div>
-                <div class="title-xllarge">{{ playerVsPlayer.scorePlayer1 }}</div>
-            <div class="title-xllarge">{{ playerVsPlayer.scorePlayer2 }}</div>
+            <div class="score-container">
+                <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.scorePlayer1 }}</div>
+                <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.scorePlayer2 }}</div>
             </div>
-            <div>
-                <div class="title-xllarge"><span class="text-xllarge">ora </span><span class="title-xllarge">{{ playerVsPlayer.gameHour }}</span></div>
-                <div class="text-xllarge"><span class="text-xllarge">terenul </span>{{ playerVsPlayer.field }}</div>
-            </div>                    
+            <div class="data-container">
+                <div class="title-xllarge text-no-wrap">
+                    <span class="text-xllarge text-no-wrap data-text"> ora </span>
+                    <span class="title-xllarge text-no-wrap data-text">{{ playerVsPlayer.gameHour }}</span>
+                </div>
+                <div class="text-xllarge text-no-wrap">
+                    <span class="data-text text-xllarge"> terenul </span>
+                    <span class="data-text">{{ playerVsPlayer.field }}</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>

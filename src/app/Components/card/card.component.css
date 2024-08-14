@@ -9,3 +9,23 @@
   padding: 10px;
   color:#30595A;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    border-radius: 10px;
+    max-width: 170px;
+    height: 180px;
+    padding: 10px;
+    opacity: 0.8;
+  }
+
+  .card-container img{
+    width: 150px;
+  }
+
+  .card-container h3, .card-container .text-regular{
+    font-size: 12px!important;
+    margin: 5px 0px!important;
+  }
+}

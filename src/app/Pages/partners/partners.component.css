@@ -32,6 +32,34 @@
   width: 80%;
 }
 
-.partners-container img{
-    margin: 0px 40px;
+.partners-container img {
+  margin: 0px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .pa-container.intaro-tr {
+    flex-direction: column;
+  }
+
+  .company-logo {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .partners-container img {
+    width: 100px;   
+  }
+
+  .partners-container img:last-child {
+    width: -webkit-fill-available;
+  }
+
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0px;
+  }
 }

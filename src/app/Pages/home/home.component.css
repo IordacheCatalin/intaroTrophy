@@ -1,6 +1,6 @@
 .hp-container-images.intaro-tr {
   max-width: 1600px;
-  margin: 110px auto 0px auto!important;
+  margin: 110px auto 0px auto !important;
   position: relative;
 }
 
@@ -65,4 +65,48 @@
   gap: 30px;
   justify-content: space-around;
   align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .hp-container-text.intaro-tr {
+    margin-top: 0px;
+  }
+
+  .hp-container-images.intaro-tr {
+    margin: 85px auto 0px auto !important;
+  }
+
+  .hp-container-text.intaro-tr h1 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: end;
+    padding-right: 5px;
+  }
+
+  .box1 h2 {
+    font-size: 12px !important;
+    font-weight: 500;
+  }
+
+  .box1 h5 {
+    font-size: 14px !important;
+    font-weight: 300;
+    margin-top: 15px;
+  }
+
+  .box1 {
+    border-radius: 10px;
+    max-width: 150px;
+    height: 80px;
+    color: #fff;
+    padding: 5px;
+    flex-direction: column;
+    margin: 70px 0 0 10px;
+  }
+
+  .cards-container {
+    margin: 40px 0px;
+    gap: 15px;
+  }
 }

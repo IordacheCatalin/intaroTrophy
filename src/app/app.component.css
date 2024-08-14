@@ -2,3 +2,10 @@
     padding: 0px 20px;
     min-height:calc(100vh - 292px)
 }
+
+
+@media only screen and (max-width: 768px) {
+    .main-app{
+        padding: 0px 10px;
+    }    
+  }

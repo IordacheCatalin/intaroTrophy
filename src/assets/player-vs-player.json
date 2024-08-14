@@ -1,5 +1,58 @@
 {
-  "13.08":[
+  "00.00":[
+    {
+      "namePlayer1": "Player 1",
+      "namePlayer2": "Player 2",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Player 1",
+      "namePlayer2": "Player 2",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Player 1",
+      "namePlayer2": "Player 2",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Player 1",
+      "namePlayer2": "Player 2",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 4
+    }
+    ,
+    {
+      "namePlayer1": "Player 1",
+      "namePlayer2": "Player 2",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 5
+    }
+    ,
+    {
+      "namePlayer1": "Player 1",
+      "namePlayer2": "Player 2",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 6
+    }
+    
+  ],
+  "13.09":[
     {
       "namePlayer1": "Ionescu Mihai",
       "namePlayer2": "Théo Lucas",
@@ -54,7 +107,7 @@
   ],
   "14.08":[
     {
-      "namePlayer1": "another thay Ionescu Mihai",
+      "namePlayer1": "Ionescu Mihai",
       "namePlayer2": "Théo Lucas",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
@@ -158,7 +211,7 @@
     }
     
   ],
-  "16.08":[
+  "16.09":[
     {
       "namePlayer1": "Ionescu Mihai",
       "namePlayer2": "Théo Lucas",

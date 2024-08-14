@@ -28,15 +28,15 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ],   
-           "baseHref": "/"
+            ],
+            "baseHref": "/"
           },
           "configurations": {
             "production": {
               "optimization": {
                 "scripts": true,
-                 "styles": true,
-                 "fonts": false
+                "styles": true,
+                "fonts": false
               },
               "outputHashing": "all",
               "sourceMap": false,
@@ -53,7 +53,7 @@
                   "maximumWarning": "2kB",
                   "maximumError": "4kB"
                 }
-              ]             
+              ]
             },
             "development": {
               "optimization": false,
