@@ -4,3 +4,80 @@ body {
   background-color: #1f4b4ce6 !important;
   font-family: "Montserrat", sans-serif!important;
 }
+.btn-security-refresh {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+}
+
+.btn-security-refresh i {
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.contact-btn.custom-btn-gn {
+  width: 150px;
+  height: 48px;
+  color: #ffffff;
+  background-color: #F26C37;
+  border-radius: 9px;
+  outline: none !important;
+  border: none !important;
+}
+
+.contact-btn:hover.custom-btn-gn{
+  background-color: #F09B7A;
+}
+
+.contact-btn.custom-btn-gn.dd-disable {
+  background-color: #8a8a8a;
+}
+
+/* scrool
+-------------------------------------------------- */
+/* ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none !important;
+} */
+
+::-webkit-scrollbar-track-piece {
+  background:#1f4b4c;
+  color: rgb(0, 150, 7);
+  border-radius: 5px 5px;
+  /* margin: 50px 30px 10px 30px; */
+}
+
+/*The trackbar makes margin only ::-webkit-scrollbar-button is active*/
+::-webkit-scrollbar-button {
+  background: #1f4b4c;
+}
+
+::-webkit-scrollbar-button:vertical:start:increment {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #f16c39;
+  border-radius: 3px;
+}
+
+  /* Scrollbar Thumb on Hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background-color: #0bc7d3;
+  }
+
+/* Scrollbar Track on Hover */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+  /* Scrollbar Track on Hover */
+  ::-webkit-scrollbar-track:hover {
+      background-color: transparent;
+  }

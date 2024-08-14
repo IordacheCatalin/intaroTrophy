@@ -15,4 +15,5 @@ export const routes: Routes = [
     {path: 'partners',component: PartnersComponent,},
     {path: 'gallery',component: GalleryComponent,},
     {path: 'contact',component: ContactComponent,},
+    {path: 'news',component: GalleryComponent,},
 ];

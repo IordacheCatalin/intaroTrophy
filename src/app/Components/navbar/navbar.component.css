@@ -77,12 +77,12 @@
 }
 
 .navbar-toggler:hover{
-  border:1px solid #0bc7d3;
+  border:1px solid #fff;
 }
 
 .navbar-toggler:focus{
   box-shadow: none;
-  border:1px solid #0bc7d3;
+  border:1px solid #fff;
 }
 
 
@@ -94,8 +94,9 @@
   .navbar-collapse.nav-custom{
     max-width: 580px;
     margin: 55px auto 0px auto;
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: #345c5d;
     border-radius: 18px;
+    border:1px solid #fff;
   }
 }
 
@@ -107,7 +108,7 @@
   }
 
   .navbar.nav-custom {
-    height: 67px;
+    height: 90px;
   }
 
   .navbar-collapse.nav-custom{

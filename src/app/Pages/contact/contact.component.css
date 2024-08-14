@@ -1,11 +1,13 @@
 .contact-form-container {
     display: flex;
-    max-width: 1920px;
-    height: calc(100vh - 355px);
+    max-width: 1600px;
     justify-content: center;
     background: #1C383B;
     color:#fff;
     overflow-y: auto;
+    margin:140px auto 40px auto;
+    border-radius: 20px;
+    padding: 80px 20px;
   }
   .form-group { 
     margin-bottom: 15px;
@@ -178,6 +180,12 @@
   @media only screen and (max-width: 480px) { 
     .map-iframe{
       max-width: 400px;
+    }
+    .form-module-line.dd-form {
+      flex-wrap: wrap;
+    }
+    .contact-btn.custom-btn-gn{
+      width: 100%;
     }
   }
   
