@@ -52,7 +52,7 @@
     }
     
   ],
-  "13.09":[
+  "17.08":[
     {
       "namePlayer1": "Ionescu Mihai",
       "namePlayer2": "Théo Lucas",
@@ -60,6 +60,59 @@
       "scorePlayer2": "0  0  0",
       "gameHour": "10:00",
       "field": 1
+    },
+    {
+      "namePlayer1": "Stan Mckinney",
+      "namePlayer2": "Tudor Mihail",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Reynaldo Olivo",
+      "namePlayer2": "Popescu Ilie",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Dumitriu Adrian",
+      "namePlayer2": "Mario Eftimie",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 4
+    }
+    ,
+    {
+      "namePlayer1": "Odilon Monette",
+      "namePlayer2": "Grigore Ion",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 5
+    }
+    ,
+    {
+      "namePlayer1": "George Marian",
+      "namePlayer2": "Marius Copil",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 6
+    }
+    
+  ],
+  "18.08":[
+    {
+      "namePlayer1": "Reynaldo Olivo",
+      "namePlayer2": "Popescu Ilie",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 3
     },
     {
       "namePlayer1": "Stan Mckinney",

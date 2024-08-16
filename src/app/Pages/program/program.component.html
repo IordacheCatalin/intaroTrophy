@@ -1,10 +1,18 @@
 <div class='pr-container intaro-tr'>
-    <div class="days-container">
-        <div *ngFor="let day of days" [ngClass]="{ 'current': day.isCurrent }">
-            <div class="day-title title-xxlarge28">{{ day.title }}</div>
-            <div class="day-date text-xxxlarge32">{{ day.date }}</div>
+
+    <div class="carousel-wrapper">
+        <button class="carousel-button prev" id="scrollLeftBtn2">&#10094;</button>
+
+        <div class="days-container" id="daysContainer" #daysContainer>
+            <div *ngFor="let day of days" [ngClass]="{ 'current': day.date === selectedDate }" (click)="selectDay(day)">
+                <div class="day-title title-xxlarge28">{{ day.title }}</div>
+                <div class="day-date text-xxxlarge32">{{ day.date }}</div>
+            </div>
         </div>
+
+        <button class="carousel-button next" id="scrollRightBtn2">&#10095;</button>
     </div>
+
 
     <div class="games-container intaro-tr">
         <div *ngFor="let playerVsPlayer of playerVsPlayers" class="game-container">

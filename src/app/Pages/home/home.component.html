@@ -1,35 +1,35 @@
 <div class="hp-container-images intaro-tr">
-    <img src="./assets/Images/bg1.png" alt="tennis image" />
-    <img src="./assets/Images/bg2.png" alt="targu-mures image" style="top:-20px;z-index: 1;" />
-    <div class="hp-container-text intaro-tr">
-        <div>
-            <h1>Elegance in Every Victory</h1>
-            <div class="box1 center-flex">
-                <h2>Târgu Mureș</h2>
-                <h5>22 - 29 september</h5>
-            </div>
-        </div>
+  <img src="./assets/Images/bg1.png" alt="tennis image" />
+  <img src="./assets/Images/bg2.png" alt="targu-mures image" style="top:-20px;z-index: 1;" />
+  <div class="hp-container-text intaro-tr">
+    <div>
+      <h1>Elegance in Every Victory</h1>
+      <div class="box1 center-flex">
+        <h2>Târgu Mureș</h2>
+        <h5>22 - 29 september</h5>
+      </div>
+    </div>
 
-        <div class="cards-container">
-            <div *ngFor="let card of cards">
-                <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
-            </div>
-        </div>
+    <div class="cards-container">
+      <div *ngFor="let card of cards">
+        <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
+      </div>
+    </div>
 
-        <div class="carousel-wrapper">
-        <button class="carousel-button prev" id="scrollLeftBtn">&#10094;</button>
-        
-        <div class="cards-container-mobile" id="cardsContainer" >
-          <div *ngFor="let card of cards" class="card-item">
-            <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
-          </div>
+    <div class="carousel-wrapper">
+      <button class="carousel-button prev" id="scrollLeftBtn">&#10094;</button>
+
+      <div class="cards-container-mobile" id="cardsContainer">
+        <div *ngFor="let card of cards" class="card-item">
+          <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
         </div>
-        
-        <button class="carousel-button next" id="scrollRightBtn">&#10095;</button>
       </div>
 
-
+      <button class="carousel-button next" id="scrollRightBtn">&#10095;</button>
     </div>
+
+
+  </div>
 </div>
 
 
