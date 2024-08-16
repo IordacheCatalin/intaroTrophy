@@ -1,0 +1,30 @@
+<div class='pr-container intaro-tr'>
+    <div *ngFor="let date of (gamesByDate | keyvalue)">
+      <div class="date-header title-xxlarge color-white">
+        <span class="px-3">Data: {{ date.key }}.2024</span>
+      </div>
+      <div class="games-container intaro-tr">
+        <div *ngFor="let playerVsPlayer of date.value" class="game-container">
+          <div class="players-container">
+            <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.namePlayer1 }}</div>
+            <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.namePlayer2 }}</div>
+          </div>
+          <div class="score-container">
+            <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.scorePlayer1 }}</div>
+            <div class="title-xllarge text-no-wrap">{{ playerVsPlayer.scorePlayer2 }}</div>
+          </div>
+          <div class="data-container">
+            <div class="title-xllarge text-no-wrap">
+              <span class="text-xllarge text-no-wrap data-text"> ora </span>
+              <span class="title-xllarge text-no-wrap data-text">{{ playerVsPlayer.gameHour }}</span>
+            </div>
+            <div class="text-xllarge text-no-wrap">
+              <span class="data-text text-xllarge"> terenul </span>
+              <span class="data-text">{{ playerVsPlayer.field }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

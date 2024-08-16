@@ -10,14 +10,26 @@
   color:#30595A;
 }
 
+@media only screen and (max-width: 1200px) {
+  .card-container {
+    border-radius: 20px;
+    max-width: 250px;
+    height: 300px;
+    padding: 10px;
+    color:#30595A;
+  }
+
+  .card-container img{
+    width: 230px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .card-container {
     border-radius: 10px;
     max-width: 170px;
-    height: 180px;
+    height: 160px;
     padding: 10px;
-    opacity: 0.8;
   }
 
   .card-container img{

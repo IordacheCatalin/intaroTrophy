@@ -1,0 +1,10 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# If an existing file or directory is requested, it is served directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirect all other requests to index.html
+RewriteRule ^ /index.html [L]

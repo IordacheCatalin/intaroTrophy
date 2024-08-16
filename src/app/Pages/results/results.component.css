@@ -1,0 +1,94 @@
+.pr-container.intaro-tr {
+    max-width: 1600px;
+    margin: 0px auto 40px auto;
+    position: relative;
+    background-color: #1c383b;
+    border-radius: 20px;
+    min-height: 200px;
+  }
+  
+  .days-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  
+  .current {
+    background-color: #f26c37;
+    border-radius: 10px;
+  }
+  
+  .days-container > div {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    height: 115px;
+  }
+  
+  .games-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 60px 0px;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 46%;
+    padding: 20px;
+    margin: 20px;
+    background: #30595ab3 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+  }
+  
+  .score-container {
+    width: 66px;
+    text-align:center;
+  }
+  
+  .data-container {
+    width: 120px;
+    text-align:end;
+  }
+  
+  .players-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .game-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .score-container > div,
+    .data-container > div,
+    .data-container .data-text,
+    .players-container > div {
+      font-size: 16px !important;
+    }
+  
+    .score-container {
+      width: 66px;
+    }
+  
+    .data-container {
+      width: 80px;
+    }
+  
+    .players-container {
+      max-width: 100%;
+      overflow: hidden;
+    }
+  }
+  

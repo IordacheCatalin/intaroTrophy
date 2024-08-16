@@ -1,40 +1,80 @@
-<div class="footer-container" *ngIf="!isMobile; else mobileTemplate">
-  <footer>
-    <div class="footer-contain">
-      <div class="company-logo">
+<div class="footer-container large-footer">
+  <footer class="large-footer">
+    <div class="footer-contain large-footer">
+      <div class="company-logo large-footer">
         <img src="/assets/Logo/logo-column.svg" alt="logo" />
       </div>
 
 
-      <div class="footer-text-res text-xllarge text-no-wrap">
+      <div class="footer-text-res text-xllarge text-no-wrap large-footer">
         Toate drepturile rezervate ©2024
       </div>
-  
-      <div class="social-media-container ">
+
+      <div class="social-media-container large-footer">
         <!-- Twitter -->
-        <a class="footer-social-link text-xxxlarge40 color-white" href="#!" role="button" data-mdb-ripple-color="dark"><i
-            class="fa-brands fa-x-twitter"></i></a>
-  
+        <a class="footer-social-link text-xxxlarge40 color-white large-footer" href="#!" role="button"
+          data-mdb-ripple-color="dark">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
         <!-- Instagram -->
-        <a class="footer-social-link text-xxxlarge40 color-white"
-          href="#" role="button"
-          data-mdb-ripple-color="dark" target=”_blank”><i class="fab fa-instagram"></i></a>
+        <a class="footer-social-link text-xxxlarge40 color-white large-footer" href="#" role="button"
+          data-mdb-ripple-color="dark" target=”_blank”>
+          <i class="fab fa-instagram"></i>
+        </a>
         <!-- Facebook -->
-        <a class="footer-social-link text-xxxlarge40 color-white"
-          href="#" role="button"
-          data-mdb-ripple-color="dark" target=”_blank”><i class="fab fa-facebook-f"></i></a>
-  
+        <a class="footer-social-link text-xxxlarge40 color-white large-footer" href="#" role="button"
+          data-mdb-ripple-color="dark" target=”_blank”>
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
         <!-- Linkedin -->
-        <a class="footer-social-link text-xxxlarge40 color-white"
-          href="#"
-          role="button" data-mdb-ripple-color="dark" target=”_blank”><i class="fab fa-linkedin"></i></a>
+        <a class="footer-social-link text-xxxlarge40 color-white large-footer" href="#" role="button"
+          data-mdb-ripple-color="dark" target=”_blank”>
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<div class="footer-container small-footer">
+  <footer class="small-footer">
+    <div class="footer-contain small-footer">
+      <div class="company-logo small-footer">
+        <img src="/assets/Logo/logo-column.svg" alt="logo" />
+      </div>
+
+
+      <div class="footer-text-res text-xsmall small-footer">
+        Toate drepturile rezervate ©2024
+      </div>
+
+      <div class="social-media-container small-footer">
+        <!-- Twitter -->
+        <a class="footer-social-link text-xxlarge color-white small-footer" href="#!" role="button"
+          data-mdb-ripple-color="dark">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a class="footer-social-link text-xxlarge color-white small-footer" href="#" role="button"
+          data-mdb-ripple-color="dark" target=”_blank”>
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- Facebook -->
+        <a class="footer-social-link text-xxlarge color-white small-footer" href="#" role="button"
+          data-mdb-ripple-color="dark" target=”_blank”>
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <!-- Linkedin -->
+        <a class="footer-social-link text-xxlarge color-white small-footer" href="#" role="button"
+          data-mdb-ripple-color="dark" target=”_blank”>
+          <i class="fab fa-linkedin"></i>
+        </a>
       </div>
 
     </div>
   </footer>
 </div>
-
-
-<ng-template #mobileTemplate>
-  <app-footer-mobile></app-footer-mobile>
-</ng-template>

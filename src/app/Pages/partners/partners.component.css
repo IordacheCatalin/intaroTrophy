@@ -1,8 +1,7 @@
 .pa-container.intaro-tr {
   display: flex;
-  margin-top: 130px;
   max-width: 1600px;
-  margin: 150px auto 40px auto;
+  margin: 0px auto 40px auto;
   position: relative;
   background-color: #1c383b;
   border-radius: 20px;

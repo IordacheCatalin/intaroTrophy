@@ -8,15 +8,30 @@
                 <h2>Târgu Mureș</h2>
                 <h5>22 - 29 september</h5>
             </div>
-        </div>       
+        </div>
 
         <div class="cards-container">
             <div *ngFor="let card of cards">
-              <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
+                <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
             </div>
+        </div>
+
+        <div class="carousel-wrapper">
+        <button class="carousel-button prev" id="scrollLeftBtn">&#10094;</button>
+        
+        <div class="cards-container-mobile" id="cardsContainer" >
+          <div *ngFor="let card of cards" class="card-item">
+            <app-card [title]="card.title" [content]="card.content" [data]="card.data"></app-card>
           </div>
+        </div>
+        
+        <button class="carousel-button next" id="scrollRightBtn">&#10095;</button>
+      </div>
+
+
     </div>
 </div>
+
 
 <app-program></app-program>
 
@@ -24,4 +39,4 @@
 
 <app-gallery style="position: relative;z-index: 2;"></app-gallery>
 
-<app-contact style="top: -167px;position: relative;z-index: 1;"></app-contact>
+<app-contact style="top: -30px;position: relative;z-index: 1;"></app-contact>
