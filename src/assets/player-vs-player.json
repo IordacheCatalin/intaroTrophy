@@ -52,217 +52,654 @@
     }
     
   ],
-  "17.08":[
+  "16.08": [
     {
-      "namePlayer1": "Ionescu Mihai",
-      "namePlayer2": "Théo Lucas",
+      "namePlayer1": "John Doe",
+      "namePlayer2": "Tom Hardy",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "09:00",
       "field": 1
     },
     {
-      "namePlayer1": "Stan Mckinney",
-      "namePlayer2": "Tudor Mihail",
+      "namePlayer1": "Ethan Hunt",
+      "namePlayer2": "Jack Reacher",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
       "gameHour": "10:00",
       "field": 2
     },
     {
-      "namePlayer1": "Reynaldo Olivo",
-      "namePlayer2": "Popescu Ilie",
+      "namePlayer1": "James Bond",
+      "namePlayer2": "Jason Bourne",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "11:00",
       "field": 3
     },
     {
-      "namePlayer1": "Dumitriu Adrian",
-      "namePlayer2": "Mario Eftimie",
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 4
-    }
-    ,
-    {
-      "namePlayer1": "Odilon Monette",
-      "namePlayer2": "Grigore Ion",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 5
-    }
-    ,
-    {
-      "namePlayer1": "George Marian",
-      "namePlayer2": "Marius Copil",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 6
-    }
-    
-  ],
-  "18.08":[
-    {
-      "namePlayer1": "Reynaldo Olivo",
-      "namePlayer2": "Popescu Ilie",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 3
-    },
-    {
-      "namePlayer1": "Stan Mckinney",
-      "namePlayer2": "Tudor Mihail",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 2
-    },
-    {
-      "namePlayer1": "Reynaldo Olivo",
-      "namePlayer2": "Popescu Ilie",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 3
-    },
-    {
-      "namePlayer1": "Dumitriu Adrian",
-      "namePlayer2": "Mario Eftimie",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 4
-    }
-    ,
-    {
-      "namePlayer1": "Odilon Monette",
-      "namePlayer2": "Grigore Ion",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 5
-    }
-    ,
-    {
-      "namePlayer1": "George Marian",
-      "namePlayer2": "Marius Copil",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 6
-    }
-    
-  ],
-  "14.08":[
-    {
-      "namePlayer1": "Ionescu Mihai",
-      "namePlayer2": "Théo Lucas",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "12:00",
       "field": 1
     },
     {
-      "namePlayer1": "Stan Mckinney",
-      "namePlayer2": "Tudor Mihail",
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "13:00",
       "field": 2
     },
     {
-      "namePlayer1": "Reynaldo Olivo",
-      "namePlayer2": "Popescu Ilie",
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "14:00",
       "field": 3
-    },
-    {
-      "namePlayer1": "Dumitriu Adrian",
-      "namePlayer2": "Mario Eftimie",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 4
     }
-    ,
-    {
-      "namePlayer1": "Odilon Monette",
-      "namePlayer2": "Grigore Ion",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 5
-    }
-    ,
-    {
-      "namePlayer1": "George Marian",
-      "namePlayer2": "Marius Copil",
-      "scorePlayer1": "0  0  0",
-      "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 6
-    }
-    
   ],
-  "15.08":[
+  "17.08": [
     {
-      "namePlayer1": "Ionescu Mihai",
-      "namePlayer2": "Théo Lucas",
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "12:00",
       "field": 1
     },
     {
-      "namePlayer1": "Stan Mckinney",
-      "namePlayer2": "Tudor Mihail",
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "18.08": [
+    {
+      "namePlayer1": "Tony Stark",
+      "namePlayer2": "Steve Rogers",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "15:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Bruce Wayne",
+      "namePlayer2": "Clark Kent",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "16:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Peter Parker",
+      "namePlayer2": "Miles Morales",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "17:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "19.08": [
+    {
+      "namePlayer1": "Luke Skywalker",
+      "namePlayer2": "Darth Vader",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "09:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Obi-Wan Kenobi",
+      "namePlayer2": "Anakin Skywalker",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
       "gameHour": "10:00",
       "field": 2
     },
     {
-      "namePlayer1": "Reynaldo Olivo",
-      "namePlayer2": "Popescu Ilie",
+      "namePlayer1": "Han Solo",
+      "namePlayer2": "Lando Calrissian",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
+      "gameHour": "11:00",
       "field": 3
     },
     {
-      "namePlayer1": "Dumitriu Adrian",
-      "namePlayer2": "Mario Eftimie",
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 4
-    }
-    ,
+      "gameHour": "12:00",
+      "field": 1
+    },
     {
-      "namePlayer1": "Odilon Monette",
-      "namePlayer2": "Grigore Ion",
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
-      "gameHour": "10:00",
-      "field": 5
-    }
-    ,
+      "gameHour": "13:00",
+      "field": 2
+    },
     {
-      "namePlayer1": "George Marian",
-      "namePlayer2": "Marius Copil",
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "20.08": [
+    {
+      "namePlayer1": "Frodo Baggins",
+      "namePlayer2": "Samwise Gamgee",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Gandalf",
+      "namePlayer2": "Saruman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Aragorn",
+      "namePlayer2": "Legolas",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "21.08": [
+    {
+      "namePlayer1": "Harry Potter",
+      "namePlayer2": "Draco Malfoy",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "15:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Hermione Granger",
+      "namePlayer2": "Ron Weasley",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "16:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Albus Dumbledore",
+      "namePlayer2": "Severus Snape",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "17:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "22.08": [
+    {
+      "namePlayer1": "Neo",
+      "namePlayer2": "Agent Smith",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "09:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Trinity",
+      "namePlayer2": "Morpheus",
       "scorePlayer1": "0  0  0",
       "scorePlayer2": "0  0  0",
       "gameHour": "10:00",
-      "field": 6
+      "field": 2
+    },
+    {
+      "namePlayer1": "The Oracle",
+      "namePlayer2": "The Architect",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "11:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
     }
-    
+  ],
+  "23.08": [
+    {
+      "namePlayer1": "Katniss Everdeen",
+      "namePlayer2": "Peeta Mellark",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Gale Hawthorne",
+      "namePlayer2": "President Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Haymitch Abernathy",
+      "namePlayer2": "Effie Trinket",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "24.08": [
+    {
+      "namePlayer1": "Rick Grimes",
+      "namePlayer2": "Daryl Dixon",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "15:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Michonne",
+      "namePlayer2": "The Governor",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "16:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Glenn Rhee",
+      "namePlayer2": "Negan",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "17:00",
+      "field": 3
+    },
+    {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "25.08": [
+    {
+      "namePlayer1": "Eleven",
+      "namePlayer2": "Mike Wheeler",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "09:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Dustin Henderson",
+      "namePlayer2": "Lucas Sinclair",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Will Byers",
+      "namePlayer2": "Max Mayfield",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "11:00",
+      "field": 3
+    },  {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "26.08": [
+    {
+      "namePlayer1": "Jon Snow",
+      "namePlayer2": "Daenerys Targaryen",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Tyrion Lannister",
+      "namePlayer2": "Cersei Lannister",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Jaime Lannister",
+      "namePlayer2": "Brienne of Tarth",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    },  {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "27.08": [
+    {
+      "namePlayer1": "T'Challa",
+      "namePlayer2": "Erik Killmonger",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "15:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Okoye",
+      "namePlayer2": "Shuri",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "16:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Nakia",
+      "namePlayer2": "M'Baku",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "17:00",
+      "field": 3
+    },  {
+      "namePlayer1": "Arya Stark",
+      "namePlayer2": "Jon Snow",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Sherlock Holmes",
+      "namePlayer2": "Dr. Watson",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Jesse Pinkman",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
+  ],
+  "28.08": [
+    {
+      "namePlayer1": "Homer Simpson",
+      "namePlayer2": "Peter Griffin",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "09:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Marge Simpson",
+      "namePlayer2": "Lois Griffin",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "10:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Bart Simpson",
+      "namePlayer2": "Stewie Griffin",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "11:00",
+      "field": 3
+    }
+  ],
+  "29.08": [
+    {
+      "namePlayer1": "Walter White",
+      "namePlayer2": "Gus Fring",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "12:00",
+      "field": 1
+    },
+    {
+      "namePlayer1": "Saul Goodman",
+      "namePlayer2": "Mike Ehrmantraut",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "13:00",
+      "field": 2
+    },
+    {
+      "namePlayer1": "Jesse Pinkman",
+      "namePlayer2": "Hank Schrader",
+      "scorePlayer1": "0  0  0",
+      "scorePlayer2": "0  0  0",
+      "gameHour": "14:00",
+      "field": 3
+    }
   ],
   "16.09":[
     {

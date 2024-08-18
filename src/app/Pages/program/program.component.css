@@ -150,4 +150,13 @@
     max-width: 100%;
     overflow: hidden;
   }
+
+  .carousel-button {
+    background-color: transparent;
+    color: rgba(242,108,55, 0.9);
+  }
+
+  .days-container{
+    width: calc(100% - 50px);
+  }  
 }

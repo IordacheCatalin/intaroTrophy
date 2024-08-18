@@ -206,4 +206,9 @@
   .hp-container-text.intaro-tr {
     height: calc(100% - 20px);
   }
+
+  .carousel-button {
+    background-color: transparent;
+    color: rgba(242,108,55, 0.9);
+  }
 }
