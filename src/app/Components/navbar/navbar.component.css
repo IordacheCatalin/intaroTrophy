@@ -12,12 +12,12 @@
 }
 
 .navbar.nav-custom .container-fluid{
-  max-width: 1600px;
+  max-width: 1550px;
+  padding: 0px 30px;
 }
 
 .navbar-brand.nav-custom {
-  margin-left: 2%;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .navbar-brand.nav-custom img{

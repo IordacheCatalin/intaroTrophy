@@ -10,7 +10,7 @@
 
 .footer-contain.large-footer{
   position: relative;
-  max-width: 1600px;
+  max-width: 1500px;
   margin: 0 auto;
   height: 142px;
   display: flex;
@@ -25,7 +25,7 @@
   height: 195px;
   background: #F26C37 0% 0% no-repeat padding-box;
   border-radius: 15px 15px 0px 0px;
-  padding: 60px 10px 0px 10px;
+  padding: 53px 20px 0px 20px;
   max-width: 158px;
 }
 
@@ -57,7 +57,7 @@
 
 .footer-contain.small-footer{
   position: relative;
-  max-width: 1600px;
+  max-width: 1550px;
   flex-wrap: wrap;;
   margin: 0 auto;
   height: 142px;

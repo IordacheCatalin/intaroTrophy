@@ -69,33 +69,33 @@
           SecurityCode number is required
         </div>
       </div>
-      <div id="generateSecurityId">
-        <span class="title-xxxlarge34">{{ generatedCode }}</span>
+      <div id="generateSecurityId" style="margin-top: 15px;">
+        <span class="title-xxxlarge34 no-interaction-ic">{{ generatedCode }}</span>
         <button type="button" (click)="refreshSecurityCode()" class="btn-security-refresh">
           <i class="fa-solid fa-arrow-rotate-right"></i>
         </button>
       </div>
-      <button type="submit" class="contact-btn custom-btn-gn dd-disable text-large22" [disabled]="true">Trimite</button>
+      <button type="submit" style="margin-top: 15px;" class="contact-btn custom-btn-gn dd-disable text-large22" [disabled]="true">Trimite</button>
     </div>
   </form>
 
-  <div class="map-container" style="margin-top: 20px;">
+  <div class="map-container">
     <div class="map-iframe">
       <img src='/assets/Images/map.png' alt="map" style="height: 370px;">
     </div>
     <div class="w-100">
-      <i class="fa-solid fa-location-dot siteTextColor"></i>
+      <img src='/assets/Logo/pin.png' alt="pin icon" style="width: 23px; margin-right: 20px;">
       <span class="">Strada Insulei Nr. X, Târgu Mureș</span>
     </div>
     <div class="w-100">
       <a href="tel:+40727989898" style="text-decoration: none;color:inherit">
-        <i class="fa-solid fa-phone siteTextColor"></i>
+        <img src='/assets/Logo/phone.png' alt="phone icon" style="width: 23px; margin-right: 20px;">
         <span class="text-regular">+40 727 989 898</span>
       </a>
     </div>
     <div class="w-100">
       <a href="mailto:office@intarotrophy.ro" style="text-decoration: none;color:inherit">
-        <i class="fa-solid fa-envelope siteTextColor"></i>
+        <img src='/assets/Logo/envelope.png' alt="pin icon" style="width: 23px; margin-right: 20px;">
         <span class="text-regular">office&#64;intarotrophy.ro</span>
       </a>
     </div>

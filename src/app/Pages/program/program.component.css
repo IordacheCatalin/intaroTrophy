@@ -1,6 +1,6 @@
-.pr-container.intaro-tr {
-  max-width: 1600px;
-  margin: 0px auto 40px auto;
+/* .pr-container.intaro-tr {
+  max-width: 1550px;
+  margin: 0px auto 80px auto;
   position: relative;
   background-color: #1c383b;
   border-radius: 20px;
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-around;
   gap: 20px;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .current {
@@ -32,103 +32,119 @@
   justify-content: center;
   flex-wrap: wrap;
   color: #fff;
-  padding: 60px 0px;
+  padding: 65px 55px 85px 55px;
 }
 
 .game-container {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  width: 46%;
+  width: 100%;
+  max-width: calc(50% - 50px);
+  min-width: 400px;
   padding: 20px;
-  margin: 20px;
   background: #30595ab3 0% 0% no-repeat padding-box;
   border-radius: 10px;
+  margin: 20px 25px;
 }
 
 .score-container {
   width: 66px;
-  text-align:center;
+  text-align: center;
 }
 
 .data-container {
   width: 120px;
-  text-align:end;
+  text-align: end;
 }
 
 .players-container {
   max-width: 100%;
   overflow: hidden;
+} */
+
+/* Carousel design */
+
+/* .days-container {
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: calc(100% - 140px);
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
+.days-container::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
 
-  /* Carousel design */
-  
-  .days-container{
-    display: -ms-flexbox;
-    display: flex;
-    gap:5%;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: calc(100% - 100px);
-    margin:0 auto;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-  }
-  
-  .days-container::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-  }
-  
-  .carousel-wrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding: 10px;
-  }
-  
-  .card-item {
-    flex: 0 0 auto;
-    margin-right: 15px;
-  }
-  
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card-item {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(242, 108, 55, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+} */
+/* END Carousel design */
+/* @media only screen and (min-width: 1450px) {
   .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(242,108,55, 0.7);
-    color: white;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 5;
-    width: 40px;
-    height: 40px;
-    margin: 0px 10px;
+    display: none;
   }
-  
-  .carousel-button.prev {
-    left: -5px;
-  }
-  
-  .carousel-button.next {
-    right: -5px;
-  }
-    /* END Carousel design */
+}
 
+@media only screen and (max-width: 1140px) {
+  .game-container {
+    max-width: calc(100% - 50px);
+  }
+}
 
 @media only screen and (max-width: 768px) {
+  .games-container {
+    padding: 20px 10px 45px 10px;
+  }
   .game-container {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     width: 100%;
+    max-width: 100%;
+    min-width: 250px;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0px;
   }
 
   .score-container > div,
@@ -153,17 +169,236 @@
 
   .carousel-button {
     background-color: transparent;
-    color: rgba(242,108,55, 0.9);
+    color: rgba(242, 108, 55, 0.9);
+    width: 20px;
+    margin: 0px;
   }
 
-  .days-container{
+  .days-container {
     width: calc(100% - 50px);
-  }  
+  }
+
+  .carousel-button.prev {
+    left: -5px;
+  }
+
+  .carousel-button.next {
+    right: 3px;
+  }
+} */
+
+
+.pr-container.intaro-tr {
+  max-width: 1550px;
+  margin: 0px auto 80px auto;
+  position: relative;
+  background-color: #1c383b;
+  border-radius: 20px;
+  min-height: 200px;
 }
 
+.days-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-around;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.current {
+  background-color: #f26c37;
+  border-radius: 10px;
+}
+
+.days-container > div {
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  height: 115px;
+}
+
+.games-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #fff;
+  padding: 65px 55px 85px 55px;
+}
+
+.game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: calc(50% - 50px);
+  min-width: 400px;
+  padding: 20px;
+  background: rgba(48, 89, 90, 0.7) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  margin: 20px 25px;
+}
+
+.score-container {
+  width: 66px;
+  text-align: center;
+}
+
+.data-container {
+  width: 120px;
+  text-align: end;
+}
+
+.players-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Carousel design */
+.days-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: calc(100% - 140px);
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-scroll-chaining: none;
+  scroll-behavior: smooth;
+}
+
+.days-container::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card-item {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(242, 108, 55, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+/* Hide carousel buttons on large screens */
 @media only screen and (min-width: 1450px) {
- .carousel-button{
-  display: none;
- }
+  .carousel-button {
+    display: none;
+  }
 }
 
+@media only screen and (max-width: 1140px) {
+  .game-container {
+    max-width: calc(100% - 50px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .games-container {
+    padding: 20px 10px 45px 10px;
+  }
+  
+  .game-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 250px;
+    padding: 10px;
+    margin: 10px 0px;
+  }
+
+  .score-container > div,
+  .data-container > div,
+  .data-container .data-text,
+  .players-container > div {
+    font-size: 16px !important;
+  }
+
+  .score-container {
+    width: 66px;
+  }
+
+  .data-container {
+    width: 80px;
+  }
+
+  .players-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-button {
+    background-color: transparent;
+    color: rgba(242, 108, 55, 0.9);
+    width: 20px;
+    margin: 0px;
+  }
+
+  .days-container {
+    width: calc(100% - 50px);
+  }
+
+  .carousel-button.prev {
+    left: -5px;
+  }
+
+  .carousel-button.next {
+    right: 3px;
+  }
+}

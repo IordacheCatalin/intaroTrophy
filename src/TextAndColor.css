@@ -171,6 +171,10 @@
     font-weight: 900;
 }
 
+.ic-bold{
+    font-weight: bold;
+}
+
 /*font alignament*/
 
 .text-justify-ic{
@@ -238,3 +242,12 @@
     display: inline-block;
 }
 /*END Structure alignament*/
+
+/*Action clas*/
+.no-interaction-ic{
+    pointer-events: none;
+    user-select: none;
+}
+
+
+/*End Action class*/

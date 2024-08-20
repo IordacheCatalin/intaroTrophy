@@ -1,11 +1,11 @@
 .contact-form-container {
   display: flex;
-  max-width: 1600px;
+  max-width: 1550px;
   justify-content: center;
   background: #1c383b;
   color: #fff;
   overflow-y: auto;
-  margin: 0px auto 40px auto;
+  margin: 0px auto 152px auto;
   border-radius: 20px;
   padding: 80px 20px;
 }
@@ -74,15 +74,16 @@ textarea.form-control.dd-form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 22px;
+  gap: 27px;
   width: 50%;
   max-width: 600px;
+  padding-bottom: 5px;
 }
 
 .form-group-module {
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 45px;
 }
 
 .form-module-line.dd-form {
@@ -117,11 +118,6 @@ textarea.form-control.dd-form {
 .map-iframe {
   border-radius: 16px;
   margin-bottom: 20px;
-}
-
-.map-container i {
-  font-size: 18px;
-  padding: 10px 15px 10px 0px;
 }
 
 #generateSecurityId {
