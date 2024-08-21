@@ -1,6 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { debug } from 'node:console';
 
 @Component({
   selector: 'app-navbar',
@@ -17,6 +18,13 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
    
+  }
+
+  scrollToElement(id: string) {
+    const element = document.getElementById(`${id}`);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }
 
 }
