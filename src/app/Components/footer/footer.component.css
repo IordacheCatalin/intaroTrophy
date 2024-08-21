@@ -93,4 +93,18 @@
 @media only screen and (max-width: 768px) {
   .footer-container.large-footer{display: none;}     
   .footer-container.small-footer{display: block;}    
+
+  .footer-contain {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .company-logo img {
+    width: 100%;
+    max-width: 100%;
+  }
 }

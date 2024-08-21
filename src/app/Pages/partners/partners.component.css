@@ -47,10 +47,12 @@
 
   .partners-container img {
     width: 100px;   
+    margin: 0px 20px;
   }
 
   .partners-container img:last-child {
-    width: -webkit-fill-available;
+    width: 100%;
+    padding: 0px 10px;
   }
 
   .partners-container {
