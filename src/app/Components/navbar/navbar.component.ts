@@ -2,22 +2,33 @@ import { Component, inject, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { debug } from 'node:console';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [
-    RouterLink,
-    CommonModule,
-  ],
+  imports: [RouterLink, CommonModule],
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
   router = inject(Router);
+  document = inject(DOCUMENT);
+  ngOnInit() {}
 
-  ngOnInit() {
-   
+  handleLinkClick(id: string) {
+    this.scrollToElement(id);
+    this.collapseNavMenu();
+  }
+
+  collapseNavMenu() {
+    const navbarCollapse = this.document.querySelector('.navbar-collapse');
+    const navbarToggler = this.document.querySelector('.navbar-toggler');
+
+    if (navbarCollapse?.classList.contains('show')) {
+      navbarToggler?.classList.add('collapsed');
+      navbarCollapse?.classList.remove('show');
+    }
   }
 
   scrollToElement(id: string) {
@@ -26,5 +37,4 @@ export class NavbarComponent implements OnInit {
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
-
 }
