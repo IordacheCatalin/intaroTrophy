@@ -56,7 +56,6 @@ export class HomeComponent implements AfterViewInit {
       });
 
       scrollRightBtn.addEventListener('click', () => {
-        console.log('Right click'); // Confirm button click
         if (cardsContainer.scrollWidth > cardsContainer.clientWidth) {
           cardsContainer.scrollBy({
             left: 200, // Adjust the value based on the card width

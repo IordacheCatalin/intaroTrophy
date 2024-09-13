@@ -8,6 +8,7 @@ import { PartnersComponent } from './Pages/partners/partners.component';
 import { GalleryComponent } from './Pages/gallery/gallery.component';
 import {ContactComponent} from './Pages/contact/contact.component';
 import { ResultComponent } from './Pages/results/results.component';
+import { NewsComponent } from './Pages/news/news.component';
 
 export const routes: Routes = [
     {path: '',component: HomeComponent,},
@@ -17,7 +18,7 @@ export const routes: Routes = [
     {path: 'partners',component: PartnersComponent,},
     {path: 'gallery',component: GalleryComponent,},
     {path: 'contact',component: ContactComponent,},
-    {path: 'news',component: GalleryComponent,},
+    {path: 'news',component: NewsComponent,},
 ];
 
 @NgModule({

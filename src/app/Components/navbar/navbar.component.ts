@@ -33,8 +33,18 @@ export class NavbarComponent implements OnInit {
 
   scrollToElement(id: string) {
     const element = document.getElementById(`${id}`);
+  
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+      this.router.navigate(['/home']).then(() => {
+        setTimeout(() => {
+          const elementAfterNavigation = document.getElementById(`${id}`);
+          if (elementAfterNavigation) {
+            elementAfterNavigation.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }, 500);
+      });
     }
   }
 }
