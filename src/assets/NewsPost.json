@@ -1,0 +1,27 @@
+[
+  {
+    "NewsTitle": "Intaro Trophy",
+    "NewsBodyText": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsBodyText2": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsBodyText3": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsDate": "August 20, 2024",
+    "ImageLink": "Img1.jpg"
+  },
+  {
+    "NewsTitle": "Intaro Trophy",
+    "NewsBodyText": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsBodyText2": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsBodyText3": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsDate": "August 21, 2024",
+    "ImageLink": "Img2.jpg"
+  },
+  {
+    "NewsTitle": "Intaro Trophy",
+    "NewsBodyText": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsBodyText2": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsBodyText3": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
+    "NewsDate": "August 22, 2024",
+    "ImageLink": "Img3.jpg"
+  }
+]
+

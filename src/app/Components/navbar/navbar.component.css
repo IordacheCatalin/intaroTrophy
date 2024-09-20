@@ -113,7 +113,13 @@
 
   .navbar-collapse.nav-custom{
     max-width: 100%;
-    margin: 35px auto 0px auto;
+    margin: 25px auto 0px auto;
+    padding: 10px;
+  }
+
+  .navbar-collapse.nav-custom .navbar-nav.nav-custom{
+    max-height: 80vh;
+    overflow-y: auto;
   }
 
   .nav-item.nav-custom {

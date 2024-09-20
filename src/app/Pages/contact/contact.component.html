@@ -6,7 +6,7 @@
         <div class="form-group dd-form">
           <label for="firstName">Nume</label>
           <input id="firstName" formControlName="firstName" class="form-control dd-form" type="text"
-            (keydown.enter)="$event.preventDefault()"/>
+            (keydown.enter)="$event.preventDefault()" />
           <div class="validation-message"
             *ngIf="contactForm.get('firstName')?.invalid && contactForm.get('firstName')?.touched">
             Acest câmp este obligatoriu!!
@@ -16,7 +16,7 @@
         <div class="form-group dd-form">
           <label for="lastName">Prenume</label>
           <input id="lastName" formControlName="lastName" class="form-control dd-form" type="text"
-            (keydown.enter)="$event.preventDefault()"/>
+            (keydown.enter)="$event.preventDefault()" />
           <div class="validation-message"
             *ngIf="contactForm.get('lastName')?.invalid && contactForm.get('lastName')?.touched">
             Acest câmp este obligatoriu!
@@ -28,7 +28,7 @@
         <div class="form-group dd-form">
           <label for="email">Email</label>
           <input id="email" formControlName="email" class="form-control dd-form" type="email"
-            (keydown.enter)="$event.preventDefault()"/>
+            (keydown.enter)="$event.preventDefault()" />
           <div class="validation-message"
             *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
             Acest câmp este obligatoriu!
@@ -38,7 +38,7 @@
         <div class="form-group dd-form">
           <label for="phone">Telefon</label>
           <input id="phone" formControlName="phone" class="form-control dd-form" type="tel"
-            (keydown.enter)="$event.preventDefault()"/>
+            (keydown.enter)="$event.preventDefault()" />
           <div class="validation-message"
             *ngIf="contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched">
             Doar numere sunt permise!
@@ -63,7 +63,7 @@
       <div class="form-group dd-form" style="max-width: 150px;">
         <label for="securityCode" class="text-no-wrap">Cod de verificare</label>
         <input id="securityCode" formControlName="securityCode" class="form-control dd-form" type="tel"
-          (keydown.enter)="$event.preventDefault()"/>
+          (keydown.enter)="$event.preventDefault()" />
         <div class="validation-message text-no-wrap"
           *ngIf="contactForm.get('securityCode')?.invalid && contactForm.get('securityCode')?.touched">
           SecurityCode number is required
@@ -75,19 +75,16 @@
           <i class="fa-solid fa-arrow-rotate-right"></i>
         </button>
       </div>
-      <button type="submit" style="margin-top: 15px;" class="contact-btn custom-btn-gn dd-disable text-large22" [disabled]="true">Trimite</button>
+      <button type="submit" style="margin-top: 15px;" class="contact-btn custom-btn-gn dd-disable text-large22"
+        [disabled]="true">Trimite</button>
     </div>
   </form>
 
   <div class="map-container">
     <div class="map-iframe">
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268.9028133280483!2d24.547656011222568!3d46.548434265554214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474bb62b3f37e425%3A0x761ff576c2700288!2sStrada%20Insulei%2C%20T%C3%A2rgu%20Mure%C8%99!5e1!3m2!1sen!2sro!4v1725965372276!5m2!1sen!2sro" 
-        width="600" 
-        height="370" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268.9028133280483!2d24.547656011222568!3d46.548434265554214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474bb62b3f37e425%3A0x761ff576c2700288!2sStrada%20Insulei%2C%20T%C3%A2rgu%20Mure%C8%99!5e1!3m2!1sen!2sro!4v1725965372276!5m2!1sen!2sro"
+        width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
@@ -105,6 +102,12 @@
       <a href="mailto:office@intarotrophy.ro" style="text-decoration: none;color:inherit">
         <img src='/assets/Logo/envelope.png' alt="pin icon" style="width: 23px; margin-right: 20px;">
         <span class="text-regular">office&#64;intarotrophy.com</span>
+      </a>
+    </div>
+    <div class="w-100">
+      <a href="mailto:marina.simona@yahoo.com" style="text-decoration: none;color:inherit">
+        <img src='/assets/Logo/envelope.png' alt="pin icon" style="width: 23px; margin-right: 20px;">
+        <span class="text-regular"> marina.simona&#64;yahoo.com</span>
       </a>
     </div>
   </div>

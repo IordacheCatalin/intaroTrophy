@@ -9,6 +9,7 @@ import { GalleryComponent } from './Pages/gallery/gallery.component';
 import {ContactComponent} from './Pages/contact/contact.component';
 import { ResultComponent } from './Pages/results/results.component';
 import { NewsComponent } from './Pages/news/news.component';
+import { AbouUsComponent } from './Pages/aboutUs/aboutUs.component';
 
 export const routes: Routes = [
     {path: '',component: HomeComponent,},
@@ -19,6 +20,7 @@ export const routes: Routes = [
     {path: 'gallery',component: GalleryComponent,},
     {path: 'contact',component: ContactComponent,},
     {path: 'news',component: NewsComponent,},
+    // {path: 'aboutus',component: AbouUsComponent,},
 ];
 
 @NgModule({

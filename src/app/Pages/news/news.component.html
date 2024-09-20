@@ -1,56 +1,208 @@
-<div class='news-container intaro-tr' id="news">
+<div style="position: relative;">
+    <div class='news-container intaro-tr' id="news">
 
-    <div class="new-header">
-        <div class="company-logo">
-            <img src="/assets/Logo/logo-column.svg" alt="logo">
+        <div class="scroll-container-main">
+
+            <div class="all-news-box-container">
+                <div *ngIf="showBigNews" class="news-box-container about-us" [ngClass]="{'active': isActiveAboutUs}">
+                    <div class="scroll-container" [ngClass]="{'active': isActiveAboutUs}">
+                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}"> </h2>
+                        <div class="news-body" [ngClass]="{'active': isActiveAboutUs}">
+                            <div class="new-header">
+                                <div class="company-logo">
+                                    <img src="/assets/Logo/logo-column.svg" alt="logo">
+                                </div>
+                                <div>
+                                    <h1 class="title-regular">INTARO Trophy – turneul care pune Târgu Mureș pe harta
+                                        internațională a
+                                        tenisului
+                                    </h1>
+                                    <h2 class="text-xsmall">Jucători de top din întreaga lume concurează pentru titlu la
+                                        prima ediția a
+                                        turneului internațional de tenis
+                                        masculin INTARO Trophy
+                                    </h2>
+                                    <div class="line line-header"></div>
+                                </div>
+                            </div>
+
+                            <div class="about-us">
+                                <p><b>Târgu Mureș, 10 septembrie 2024 -</b> INTARO S.A., în parteneriat cu Federația
+                                    Română de Tenis, anunță
+                                    debutul
+                                    Turneului Internațional de Tenis INTARO Trophy, care va avea loc între 22 și 29
+                                    septembrie, la Baza
+                                    Sportivă
+                                    FORZA, din Strada Insulei nr.1.</p>
+
+                                <p>Peste 100 de jucători profesioniști vor avea ocazia să se întreacă atât în meciurile
+                                    de simplu, cât și de
+                                    dublu
+                                    masculin pe parcursul celor 8 zile de competiție. Turneul va oferi iubitorilor de
+                                    tenis ocazia de a
+                                    urmări
+                                    pe
+                                    viu meciuri spectaculoase, cu premii totale în valoare de 15.000 Euro.</p>
+
+                                <p>„Suntem foarte încântați să găzduim anul acesta prima ediție a INTARO Trophy. Cu
+                                    siguranță este un
+                                    eveniment
+                                    sportiv major care pune Târgu Mureșul pe harta tenisului internațional. Ne așteptăm
+                                    la un nivel
+                                    competițional
+                                    ridicat și meciuri memorabile, având în vedere participarea unor jucători de
+                                    renume.”, a declarat Andrei
+                                    Mlendea, directorul turneului.</p>
+
+                                <p>Printre favoriții competiției se numără Ionel Nicholas David (21) jucător ce s-a
+                                    aflat în top 200ATP și
+                                    Cezar
+                                    Crețu (23), antrenat de Victor Hănescu, care anul acesta a intrat în top 300ATP.
+                                </p>
+
+                                <p>Organizatorii turneului îi vor acorda lui Mihai Alexandru Coman (19) un wild card pe
+                                    tabloul principal de
+                                    simplu,
+                                    cât și de dublu. Coman, fost loc 15 mondial la juniori, a trecut anul acesta la
+                                    competițiile de seniori.
+                                </p>
+
+                                <p>Meciurile vor fi desfășurate pe terenuri de zgură.</p>
+
+                                <p>Pentru mai multe informații despre programul turneului, jucători și accesul la
+                                    eveniment, vizitați
+                                    site-ul
+                                    intarotrophy.com.</p>
+
+                                <div class="line"></div>
+
+                                <p><b>Despre Turneul INTARO Trophy:</b></p>
+
+                                <p>Turneul Internațional de Tenis <b>"INTARO Trophy"</b> aduce o nouă vibrație pe scena
+                                    sportului, fiind
+                                    parte
+                                    din
+                                    prestigiosul calendar al ITF Men's World Tennis Tour. Cu jucători de elită din peste
+                                    20 de țări,
+                                    evenimentul
+                                    promite să transforme Târgu Mureș într-un punct fierbinte al tenisului
+                                    internațional. Fanii sportului
+                                    vor
+                                    avea
+                                    ocazia unică să trăiască intensitatea și pasiunea meciurilor, asistând la spectacole
+                                    sportive de neuitat
+                                    și
+                                    momente pline de emoție.</p>
+
+                                <div class="line"></div>
+
+                                <p><b>Pentru contact:</b></p>
+
+                                <p>Email: office&#64;intarotrophy.com</p>
+
+                                <p>marina.simona&#64;yahoo.com</p>
+                            </div>
+
+                        </div>
+                        <div class="news-footer" [ngClass]="{'active': isActiveAboutUs}">
+                            <div class="news-date" [ngClass]="{'active': isActiveAboutUs}"></div>
+                            <div>
+                                <button type="button" class="general-btn news-btn about-us open" [ngClass]="{'active': isActiveAboutUs}" (click)="addClassToAboutUs('about-us')">Vizualizează</button>
+
+                                <button type="button" class="general-btn news-btn about-us close" [ngClass]="{'active': isActiveAboutUs}" (click)="removeClassToAboutUs('about-us')">Inchide</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div *ngIf="showBigNews" class="news-box-container table-playesrs" [ngClass]="{'active': isActiveTableplayers}"> 
+                    <div class="scroll-container" [ngClass]="{'active': isActiveTableplayers}">                     
+                        <div class="news-body" [ngClass]="{'active': isActiveTableplayers}">
+                            <div *ngFor="let table of tableData" class="table-container">
+                                <h3 class="table-name">{{ table.tableName }}</h3>
+                                <table class="players-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="large-header">Position</th>
+                                            <th class="small-header"></th>
+                                            <th class="large-header">Player</th>
+                                            <th class="small-header">Player</th>
+                                            <th class="large-header">ATP Ranking</th>
+                                            <th class="small-header">ATP RK</th>
+                                            <th class="large-header">ITF Ranking</th>
+                                            <!-- <th class="small-header">ITF RANK</th> -->
+                                            <th class="large-header">Junior Ranking</th>
+                                            <!-- <th class="small-header">J RANK</th> -->
+                                            <th class="large-header">National Ranking</th>
+                                            <th class="small-header">N RK</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let player of table.players">
+                                            <td>{{ player.Position }}</td>
+
+                                            <td>
+                                                <img [src]="getImagePath(player.Country)"
+                                                    alt="{{ player.Country }} flag" class="country-flag" />
+                                                <span class="px-2">{{ player.Player }}</span>
+                                            </td>
+
+                                            <td>{{ player['ATP Ranking'] }}</td>
+
+                                            <td class="large-header">{{ player['ITF Ranking'] }}</td>
+
+                                            <td class="large-header">{{ player['Junior Ranking'] }}</td>
+
+                                            <td>{{ player['National Ranking'] }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div class="news-footer" [ngClass]="{'active': isActiveTableplayers}">
+                            <div class="news-date" [ngClass]="{'active': isActiveTableplayers}"></div>
+                            <div>
+                                <button type="button" class="general-btn news-btn table-playesrs open" [ngClass]="{'active': isActiveTableplayers}" (click)="addClassToAboutUs('table-playesrs')">Vizualizează</button>
+
+                                <button type="button" class="general-btn news-btn table-playesrs close" [ngClass]="{'active': isActiveTableplayers}" (click)="removeClassToAboutUs('table-playesrs')">Inchide</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div *ngFor="let news of newsData; let i = index" class="news-box-container"
+                    [ngClass]="{'active': isActive[i]}">
+                    <div class="scroll-container" [ngClass]="{'active': isActive[i]}">
+                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActive[i]}">{{ news.NewsTitle }}
+                        </h2>
+                        <div class="news-body" [ngClass]="{'active': isActive[i]}">
+                            <p>{{ news.NewsBodyText }}</p>
+                            <p>{{ news.NewsBodyText2 }}</p>
+                            <p>{{ news.NewsBodyText3 }}</p>
+
+                            <div class="news-img-container" [ngClass]="{'active': isActive[i]}">
+                                <img [src]="'assets/NewsImage/' + news.ImageLink" alt="{{ news.NewsTitle }} image" />
+                            </div>
+                        </div>
+                        <div class="news-footer" [ngClass]="{'active': isActive[i]}">
+                            <div class="news-date" [ngClass]="{'active': isActive[i]}">{{ news.NewsDate }}</div>
+                            <div>
+                                <button type="button" [ngClass]="{'active': isActive[i]}"
+                                    class="general-btn news-btn open" (click)="addClass(i)">Vizualizează</button>
+
+                                <button type="button" [ngClass]="{'active': isActive[i]}"
+                                    class="general-btn news-btn close" (click)="removeClass(i)">Inchide</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
         </div>
-        <div>
-            <h1 class="title-regular">INTARO Trophy – turneul care pune Târgu Mureș pe harta internațională a tenisului</h1>
-            <h2 class="text-xsmall">Jucători de top din întreaga lume concurează pentru titlu la prima ediția a turneului internațional de tenis
-                masculin INTARO Trophy
-            </h2>
-            <div class="line line-header"></div>
-        </div>
-    </div>
-
-
-    <p><b>Târgu Mureș, 10 septembrie 2024 -</b> INTARO S.A., în parteneriat cu Federația Română de Tenis, anunță debutul
-        Turneului Internațional de Tenis INTARO Trophy, care va avea loc între 22 și 29 septembrie, la Baza Sportivă
-        FORZA, din Strada Insulei nr.1.</p>
-
-    <p>Peste 100 de jucători profesioniști vor avea ocazia să se întreacă atât în meciurile de simplu, cât și de dublu
-        masculin pe parcursul celor 8 zile de competiție. Turneul va oferi iubitorilor de tenis ocazia de a urmări pe
-        viu meciuri spectaculoase, cu premii totale în valoare de 15.000 Euro.</p>
-
-    <p>„Suntem foarte încântați să găzduim anul acesta prima ediție a INTARO Trophy. Cu siguranță este un eveniment
-        sportiv major care pune Târgu Mureșul pe harta tenisului internațional. Ne așteptăm la un nivel competițional
-        ridicat și meciuri memorabile, având în vedere participarea unor jucători de renume.”, a declarat Andrei
-        Mlendea, directorul turneului.</p>
-
-    <p>Printre favoriții competiției se numără Ionel Nicholas David (21) jucător ce s-a aflat în top 200ATP și Cezar
-        Crețu (23), antrenat de Victor Hănescu, care anul acesta a intrat în top 300ATP. </p>
-
-    <p>Organizatorii turneului îi vor acorda lui Mihai Alexandru Coman (19) un wild card pe tabloul principal de simplu,
-        cât și de dublu. Coman, fost loc 15 mondial la juniori, a trecut anul acesta la competițiile de seniori.</p>
-
-    <p>Meciurile vor fi desfășurate pe terenuri de zgură.</p>
-
-    <p>Pentru mai multe informații despre programul turneului, jucători și accesul la eveniment, vizitați site-ul
-        intarotrophy.com.</p>
-
-    <div class="line"></div>
-
-    <p><b>Despre Turneul INTARO Trophy:</b></p>
-
-    <p>Turneul Internațional de Tenis <b>"INTARO Trophy"</b> aduce o nouă vibrație pe scena sportului, fiind parte din
-        prestigiosul calendar al ITF Men's World Tennis Tour. Cu jucători de elită din peste 20 de țări, evenimentul
-        promite să transforme Târgu Mureș într-un punct fierbinte al tenisului internațional. Fanii sportului vor avea
-        ocazia unică să trăiască intensitatea și pasiunea meciurilor, asistând la spectacole sportive de neuitat și
-        momente pline de emoție.</p>
-
-    <div class="line"></div>
-
-    <p><b>Pentru contact:</b></p>
-
-    <p>Email: office&#64;intarotrophy.com</p>
-</div>

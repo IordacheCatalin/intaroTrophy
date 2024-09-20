@@ -38,12 +38,21 @@ body {
   border: none !important;
 }
 
-.contact-btn:hover.custom-btn-gn{
+.contact-btn:hover.custom-btn-gn, .general-btn:hover.news-btn{
   background-color: #F09B7A;
 }
 
 .contact-btn.custom-btn-gn.dd-disable {
   background-color: #8a8a8a;
+}
+
+.general-btn.news-btn{
+  padding: 5px 20px;
+  background: #F26C37;
+  color: #fff;
+  border: 1px solid #F26C37;
+  outline: none;
+  border-radius: 8px;
 }
 
 /* scrool
@@ -94,4 +103,7 @@ body {
       background-color: transparent;
   }
 
-  
+  @media only screen and (max-width: 768px) {
+
+  }
+

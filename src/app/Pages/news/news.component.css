@@ -1,15 +1,21 @@
 .news-container.intaro-tr {
+  position: relative;
   display: flex;
   flex-direction: column;
   max-width: 1550px;
-  margin: 0px auto 80px auto;
+  margin: 0px auto;
   position: relative;
   background-color: #1c383b;
   border-radius: 20px;
   min-height: 344px;
-  padding: 80px 40px;
+  padding: 20px 20px;
   color: #fff;
   text-align: justify;
+}
+
+.scroll-container-main{
+  height: calc(100vh - 400px);
+  overflow-y: auto;
 }
 
 .new-header {
@@ -36,17 +42,174 @@
   margin: 20px 50px;
 }
 
-.line{
+.line {
   background-color: #fff;
   height: 1px;
   width: auto;
-  margin:20px 0px;
+  margin: 20px 0px;
 }
 
-.line.line-header{
+.line.line-header {
   margin: 0px 40px;
   overflow: hidden;
 }
+
+/* #region Table design */
+.table-container {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #f26c37;
+}
+
+.players-table {
+  width: 100%;
+}
+
+.table-name {
+  color: #f26c37;
+}
+
+.players-table thead {
+  border-bottom: 1px solid #fff;
+}
+
+thead tr {
+  height: 80px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ffffff59;
+  height: 50px;
+  font-size: 14px;
+}
+
+.country-flag {
+  max-width: 25px;
+}
+
+/* #endregion Table design */
+
+.large-header {
+  display: table-cell;
+}
+
+.small-header {
+  display: none;
+}
+
+/* #region News card design */
+.all-news-box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 50px 0px;
+  width: 100%;
+}
+
+.news-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 450px;
+  min-width: 300px;
+  width: 100%;
+  border: 1px solid #f26c37;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.news-box-container.active {
+  display: block;
+  top: 0;
+  left: 0;
+  height: calc(100vh - 360px);
+  position: absolute;
+  z-index: 100;
+  max-width: 100%;
+  background: #1c383b;
+}
+
+.news-box-container.not-active{
+  display: none;
+}
+
+.scroll-container{
+  height: 100%;
+}
+
+.scroll-container.active {
+  overflow-y: auto;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.scroll-container.active p{
+  text-align: center;
+}
+
+.scroll-container.active .about-us p{
+  text-align: start;
+}
+
+.news-img-container.active {
+  text-align: center;
+  max-height: 20vh;
+}
+
+.news-img-container.active img {
+  max-height: 20vh;
+}
+
+.news-box-container h2 {
+  text-align: center;
+}
+
+.news-body { 
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.news-body.active{
+  max-height: 100%;
+  overflow: auto; 
+}
+
+.news-img-container {}
+
+.news-img-container img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* #endregion News card design */
+.general-btn.news-btn.open {
+  display: block;
+}
+
+.general-btn.news-btn.close {
+  display: none;
+}
+
+.general-btn.news-btn.active.open {
+  display: none;
+}
+
+.general-btn.news-btn.active.close {
+  display: block;
+}
+
+.news-box-container.active {}
+
+
 
 @media only screen and (max-width: 768px) {
   .news-container.intaro-tr {
@@ -54,20 +217,52 @@
   }
 
   .news-container.intaro-tr h1,
-.news-container.intaro-tr h2 {
-  margin: 0px 10px 20px 10px;
-}
+  .news-container.intaro-tr h2 {
+    margin: 0px 10px 20px 10px;
+  }
 
-.company-logo img {
-  max-width: 80px;
-}
+  .company-logo img {
+    max-width: 80px;
+  }
 
-.company-logo {
-  padding: 10px 5px;
-}
+  .company-logo {
+    padding: 10px 5px;
+  }
 
-.line.line-header{
-  margin: 0px 5px;
-  overflow: hidden;
-}
+  .line.line-header {
+    margin: 0px 5px;
+    overflow: hidden;
+  }
+
+  .large-header {
+    display: none;
+  }
+
+  .small-header {
+    display: table-cell;
+  }
+
+  .table-name {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .news-body { 
+    max-height: 400px;
+  }
+
+  .news-box-container.active {
+    height: calc(100vh - 275px);
+    padding: 5px 5px 5px 10px;
+  }
+
+  .scroll-container-main{
+    height: calc(100vh - 320px);
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
 }
