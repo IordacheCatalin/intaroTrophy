@@ -6,7 +6,7 @@
             <div class="all-news-box-container">
                 <div *ngIf="showBigNews" class="news-box-container about-us" [ngClass]="{'active': isActiveAboutUs}">
                     <div class="scroll-container" [ngClass]="{'active': isActiveAboutUs}">
-                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}"> </h2>
+                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}">Despre noi</h2> 
                         <div class="news-body" [ngClass]="{'active': isActiveAboutUs}">
                             <div class="new-header">
                                 <div class="company-logo">
@@ -116,7 +116,8 @@
                 </div>
 
                 <div *ngIf="showBigNews" class="news-box-container table-playesrs" [ngClass]="{'active': isActiveTableplayers}"> 
-                    <div class="scroll-container" [ngClass]="{'active': isActiveTableplayers}">                     
+                    <div class="scroll-container" [ngClass]="{'active': isActiveTableplayers}">
+                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}">Jucători</h2>                     
                         <div class="news-body" [ngClass]="{'active': isActiveTableplayers}">
                             <div *ngFor="let table of tableData" class="table-container">
                                 <h3 class="table-name">{{ table.tableName }}</h3>
