@@ -117,6 +117,7 @@ tbody tr {
   border: 1px solid #f26c37;
   padding: 20px;
   border-radius: 16px;
+  background: #1f4b4c;
 }
 
 .news-box-container.active {
@@ -213,7 +214,7 @@ tbody tr {
 
 @media only screen and (max-width: 768px) {
   .news-container.intaro-tr {
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 
   .news-container.intaro-tr h1,
@@ -251,7 +252,7 @@ tbody tr {
   }
 
   .news-body { 
-    max-height: 400px;
+    max-height: 250px;
   }
 
   .news-box-container.active {
@@ -260,9 +261,16 @@ tbody tr {
   }
 
   .scroll-container-main{
-    height: calc(100vh - 320px);
+    height: calc(100vh - 300px);
     overflow-y: auto;
-    padding-right: 10px;
+  }
+
+  .scroll-container-main::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;   
   }
   
+  .all-news-box-container{
+    margin:0px;
+  }
 }

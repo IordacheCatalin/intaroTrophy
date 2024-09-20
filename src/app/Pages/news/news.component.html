@@ -6,7 +6,7 @@
             <div class="all-news-box-container">
                 <div *ngIf="showBigNews" class="news-box-container about-us" [ngClass]="{'active': isActiveAboutUs}">
                     <div class="scroll-container" [ngClass]="{'active': isActiveAboutUs}">
-                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}">Despre noi</h2> 
+                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}">Despre noi</h2>
                         <div class="news-body" [ngClass]="{'active': isActiveAboutUs}">
                             <div class="new-header">
                                 <div class="company-logo">
@@ -107,17 +107,22 @@
                         <div class="news-footer" [ngClass]="{'active': isActiveAboutUs}">
                             <div class="news-date" [ngClass]="{'active': isActiveAboutUs}"></div>
                             <div>
-                                <button type="button" class="general-btn news-btn about-us open" [ngClass]="{'active': isActiveAboutUs}" (click)="addClassToAboutUs('about-us')">Vizualizează</button>
+                                <button type="button" class="general-btn news-btn about-us open"
+                                    [ngClass]="{'active': isActiveAboutUs}"
+                                    (click)="addClassToAboutUs('about-us')">Vizualizează</button>
 
-                                <button type="button" class="general-btn news-btn about-us close" [ngClass]="{'active': isActiveAboutUs}" (click)="removeClassToAboutUs('about-us')">Inchide</button>
+                                <button type="button" class="general-btn news-btn about-us close"
+                                    [ngClass]="{'active': isActiveAboutUs}"
+                                    (click)="removeClassToAboutUs('about-us')">Inchide</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div *ngIf="showBigNews" class="news-box-container table-playesrs" [ngClass]="{'active': isActiveTableplayers}"> 
+                <div *ngIf="showBigNews" class="news-box-container table-playesrs"
+                    [ngClass]="{'active': isActiveTableplayers}">
                     <div class="scroll-container" [ngClass]="{'active': isActiveTableplayers}">
-                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}">Jucători</h2>                     
+                        <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActiveAboutUs}">Jucători</h2>
                         <div class="news-body" [ngClass]="{'active': isActiveTableplayers}">
                             <div *ngFor="let table of tableData" class="table-container">
                                 <h3 class="table-name">{{ table.tableName }}</h3>
@@ -164,9 +169,13 @@
                         <div class="news-footer" [ngClass]="{'active': isActiveTableplayers}">
                             <div class="news-date" [ngClass]="{'active': isActiveTableplayers}"></div>
                             <div>
-                                <button type="button" class="general-btn news-btn table-playesrs open" [ngClass]="{'active': isActiveTableplayers}" (click)="addClassToAboutUs('table-playesrs')">Vizualizează</button>
+                                <button type="button" class="general-btn news-btn table-playesrs open"
+                                    [ngClass]="{'active': isActiveTableplayers}"
+                                    (click)="addClassToAboutUs('table-playesrs')">Vizualizează</button>
 
-                                <button type="button" class="general-btn news-btn table-playesrs close" [ngClass]="{'active': isActiveTableplayers}" (click)="removeClassToAboutUs('table-playesrs')">Inchide</button>
+                                <button type="button" class="general-btn news-btn table-playesrs close"
+                                    [ngClass]="{'active': isActiveTableplayers}"
+                                    (click)="removeClassToAboutUs('table-playesrs')">Inchide</button>
                             </div>
                         </div>
                     </div>
@@ -174,7 +183,7 @@
 
 
 
-                <div *ngFor="let news of newsData; let i = index" class="news-box-container"
+                <!-- <div *ngFor="let news of newsData; let i = index" class="news-box-container"
                     [ngClass]="{'active': isActive[i]}">
                     <div class="scroll-container" [ngClass]="{'active': isActive[i]}">
                         <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActive[i]}">{{ news.NewsTitle }}
@@ -199,11 +208,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
 
-
-
-
         </div>
+    </div>
+</div>
