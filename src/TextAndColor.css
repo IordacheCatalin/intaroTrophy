@@ -59,17 +59,17 @@
 }
 
 .title-xlarge, .text-xlarge {
-    font-size: 24px!important;
+    font-size: 24px;
     /* font-size: clamp(16px, 1vw, 24px); */
 }
 
 .title-large22, .text-large22 {
-    font-size: 22px;
+    font-size: 22px!important;
     /* font-size: clamp(18px, 1vw, 22px); */
 }
 
 .title-large, .text-large{
-    font-size: 20px;
+    font-size: 20px!important;
     /* font-size: clamp(16px, 1vw, 20px); */
 }
 

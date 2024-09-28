@@ -1,14 +1,14 @@
 .main-app {
-  margin-top: 150px;
+  margin-top: 105px;
   padding: 0px 60px;
-  min-height: calc(100vh - 292px);
+  min-height: calc(100vh - 205px);
   -webkit-overflow-scrolling: touch;
 }
 
 @media only screen and (max-width: 768px) {
   .main-app {
     padding: 0px 10px;
-    margin-top: 100px;
-    min-height: calc(100vh - 242px);
+    margin-top: 80px;
+    min-height: calc(100vh - 180px);
   }
 }

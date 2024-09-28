@@ -1,27 +1,30 @@
 [
   {
     "NewsTitle": "Intaro Trophy",
-    "NewsBodyText": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsBodyText2": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsBodyText3": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsDate": "August 20, 2024",
-    "ImageLink": "Img1.jpg"
+    "NewsBodyText": "",
+    "NewsBodyText2": "",
+    "NewsBodyText3": "",
+    "NewsDate": "Septembrie 24, 2024",
+    "ImageLink": "IntaroMDD.jpg",
+    "ImageLink2": "IntaroMDS.jpg",
+    "ImageLink3": "IntaroQS.jpg",
+    "PdfLink": "MDD.pdf",
+    "PdfLink2": "MDS.pdf",
+    "PdfLink3": "QS.pdf"
   },
   {
-    "NewsTitle": "Intaro Trophy",
-    "NewsBodyText": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsBodyText2": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsBodyText3": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsDate": "August 21, 2024",
-    "ImageLink": "Img2.jpg"
-  },
-  {
-    "NewsTitle": "Intaro Trophy",
-    "NewsBodyText": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsBodyText2": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsBodyText3": "lorem ipsum dolor sit amet, consectetur adip occum nost, sed do eiusmod tempor incididunt ut lab",
-    "NewsDate": "August 22, 2024",
-    "ImageLink": "Img3.jpg"
+    "NewsTitle": "Men’s Single Final începe la ora 09:00",
+    "NewsBodyText": "",
+    "NewsBodyText2": "",
+    "NewsBodyText3": "",
+    "NewsDate": "Septembrie 28, 2024",
+    "ImageLink": "MSFinal.jpg",
+    "ImageLink2": "",
+    "ImageLink3": "",
+    "PdfLink": "MSFinal.pdf",
+    "PdfLink2": "",
+    "PdfLink3": ""
   }
+  
 ]
 

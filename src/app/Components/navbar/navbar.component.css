@@ -1,7 +1,7 @@
 .navbar.nav-custom {
   background-color: #1F4B4C;
   box-shadow: 0px 3px 20px #00000082;
-  height: 130px;
+  height: 90px;
   position: fixed;
   max-width: 100%;
   margin: 0 auto;
@@ -21,7 +21,7 @@
 }
 
 .navbar-brand.nav-custom img{
-  width: 100%;
+  width: 75%;
 }
 
 .navbar-collapse.nav-custom {
@@ -108,13 +108,13 @@
   }
 
   .navbar.nav-custom {
-    height: 90px;
+    height: 70px;
   }
 
   .navbar-collapse.nav-custom{
     max-width: 100%;
-    margin: 25px auto 0px auto;
-    padding: 10px;
+    margin: 15px auto 0px auto;
+    padding: 0px 10px;
   }
 
   .navbar-collapse.nav-custom .navbar-nav.nav-custom{

@@ -183,7 +183,7 @@
 
 
 
-                <!-- <div *ngFor="let news of newsData; let i = index" class="news-box-container"
+                <div *ngFor="let news of newsData; let i = index" class="news-box-container"
                     [ngClass]="{'active': isActive[i]}">
                     <div class="scroll-container" [ngClass]="{'active': isActive[i]}">
                         <h2 class="title-xlarge text-center-ic" [ngClass]="{'active': isActive[i]}">{{ news.NewsTitle }}
@@ -194,24 +194,50 @@
                             <p>{{ news.NewsBodyText3 }}</p>
 
                             <div class="news-img-container" [ngClass]="{'active': isActive[i]}">
-                                <img [src]="'assets/NewsImage/' + news.ImageLink" alt="{{ news.NewsTitle }} image" />
+                                <div style="position: relative;">
+                                    <img *ngIf="news.ImageLink" [src]="'assets/NewsImage/' + news.ImageLink"
+                                        alt="{{ news.NewsTitle }} image" />
+                                    <a *ngIf="news.PdfLink" [href]="'assets/NewsPDF/' + news.PdfLink"
+                                        download="{{ news.PdfLink }}" class="general-btn news-btn"
+                                        [ngClass]="{'active': isActive[i]}" class="general-btn news-btn close">
+                                        Download {{ news.PdfLink }}
+                                    </a>
+                                </div>
+                                <div style="position: relative;">
+                                    <img *ngIf="news.ImageLink2" [src]="'assets/NewsImage/' + news.ImageLink2"
+                                        alt="{{ news.NewsTitle2}} image" />
+                                    <a *ngIf="news.PdfLink2" [href]="'assets/NewsPDF/' + news.PdfLink2"
+                                        download="{{ news.PdfLink2 }}" class="general-btn news-btn"
+                                        [ngClass]="{'active': isActive[i]}" class="general-btn news-btn close">
+                                        Download {{ news.PdfLink2 }}
+                                    </a>
+                                </div>
+                                <div style="position: relative;">
+                                    <img *ngIf="news.ImageLink3" [src]="'assets/NewsImage/' + news.ImageLink3"
+                                        alt="{{ news.NewsTitle3 }} image" />
+                                    <a *ngIf="news.PdfLink3" [href]="'assets/NewsPDF/' + news.PdfLink3"
+                                        download="{{ news.PdfLink3 }}" class="general-btn news-btn"
+                                        [ngClass]="{'active': isActive[i]}" class="general-btn news-btn close">
+                                        Download {{ news.PdfLink3 }}
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="news-footer" [ngClass]="{'active': isActive[i]}">
                             <div class="news-date" [ngClass]="{'active': isActive[i]}">{{ news.NewsDate }}</div>
                             <div>
                                 <button type="button" [ngClass]="{'active': isActive[i]}"
-                                    class="general-btn news-btn open" (click)="addClass(i)">Vizualizează</button>
+                                    class="general-btn news-btn open" (click)="addClass(i)">Vizualizează
+                                </button>
 
                                 <button type="button" [ngClass]="{'active': isActive[i]}"
-                                    class="general-btn news-btn close" (click)="removeClass(i)">Inchide</button>
+                                    class="general-btn news-btn close" (click)="removeClass(i)">Inchide
+                                </button>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
-
-
         </div>
     </div>
 </div>

@@ -5,7 +5,8 @@ body {
   width: 100%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
@@ -13,7 +14,7 @@ html, body {
 
 body {
   background-color: #1f4b4ce6 !important;
-  font-family: "Montserrat", sans-serif!important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .btn-security-refresh {
@@ -38,7 +39,8 @@ body {
   border: none !important;
 }
 
-.contact-btn:hover.custom-btn-gn, .general-btn:hover.news-btn{
+.contact-btn:hover.custom-btn-gn,
+.general-btn:hover.news-btn {
   background-color: #F09B7A;
 }
 
@@ -46,13 +48,21 @@ body {
   background-color: #8a8a8a;
 }
 
-.general-btn.news-btn{
+.general-btn.news-btn {
   padding: 5px 20px;
   background: #F26C37;
   color: #fff;
   border: 1px solid #F26C37;
   outline: none;
   border-radius: 8px;
+}
+
+a.general-btn.news-btn {
+  position: absolute;
+  top: 10px;
+  text-decoration: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* scrool
@@ -62,7 +72,7 @@ body {
 } */
 
 ::-webkit-scrollbar-track-piece {
-  background:#1f4b4c;
+  background: #1f4b4c;
   color: rgb(0, 150, 7);
   border-radius: 5px 5px;
   /* margin: 50px 30px 10px 30px; */
@@ -88,22 +98,27 @@ body {
   border-radius: 3px;
 }
 
-  /* Scrollbar Thumb on Hover */
-  ::-webkit-scrollbar-thumb:hover {
-      background-color: #0bc7d3;
-  }
+/* Scrollbar Thumb on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0bc7d3;
+}
 
 /* Scrollbar Track on Hover */
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
-  /* Scrollbar Track on Hover */
-  ::-webkit-scrollbar-track:hover {
-      background-color: transparent;
+/* Scrollbar Track on Hover */
+::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  a.general-btn.news-btn {
+    font-size: 12px;
+    height: 25px;
+    padding: 3px 20px;
+    border-radius: 6px;
+    top: 0px;
   }
-
-  @media only screen and (max-width: 768px) {
-
-  }
-
+}
