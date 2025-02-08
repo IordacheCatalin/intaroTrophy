@@ -41,7 +41,6 @@ export class ProgramComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    console.log(this.currentFormatDate);
     this.breakpointObserver
       .observe([Breakpoints.Handset])
       .subscribe((result) => {
@@ -75,8 +74,7 @@ export class ProgramComponent implements OnInit {
     const cardsContainer = document.getElementById('daysContainer');
 
     if (scrollLeftBtn && scrollRightBtn && cardsContainer) {
-      scrollLeftBtn.addEventListener('click', () => {
-        console.log('Left click'); // Confirm button click
+      scrollLeftBtn.addEventListener('click', () => {      
         if (cardsContainer.scrollLeft > 0) {
           cardsContainer.scrollBy({
             left: -200, // Adjust the value based on the card width
@@ -85,8 +83,7 @@ export class ProgramComponent implements OnInit {
         }
       });
 
-      scrollRightBtn.addEventListener('click', () => {
-        console.log('Right click'); // Confirm button click
+      scrollRightBtn.addEventListener('click', () => {       
         if (cardsContainer.scrollWidth > cardsContainer.clientWidth) {
           cardsContainer.scrollBy({
             left: 200, // Adjust the value based on the card width

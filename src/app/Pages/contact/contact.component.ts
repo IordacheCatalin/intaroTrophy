@@ -66,8 +66,7 @@ export class ContactComponent implements OnInit {
   onSubmit(event: Event): void {
     event.preventDefault();
     event.stopPropagation();
-    if (this.contactForm.valid) {
-      console.log('Form Submitted!', this.contactForm.value);
+    if (this.contactForm.valid) {    
     }
   }
 }

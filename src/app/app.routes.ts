@@ -10,10 +10,13 @@ import {ContactComponent} from './Pages/contact/contact.component';
 import { ResultComponent } from './Pages/results/results.component';
 import { NewsComponent } from './Pages/news/news.component';
 import { AbouUsComponent } from './Pages/aboutUs/aboutUs.component';
+import { StartUpComponent } from './Pages/startUp/startUp.component';
 
 export const routes: Routes = [
-    {path: '',component: HomeComponent,},
+    {path: '',component: StartUpComponent,},
+    {path: 'start',component: StartUpComponent,},
     {path: 'home',component: HomeComponent,},
+    {path: 'intaroThrophy',component: HomeComponent,},
     {path: 'results',component: ResultComponent,},
     {path: 'program',component: ProgramComponent,},
     {path: 'partners',component: PartnersComponent,},
@@ -27,4 +30,4 @@ export const routes: Routes = [
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
   })
-  export class AppRoutingModule { }
+  export class AppRoutingModule { } 
